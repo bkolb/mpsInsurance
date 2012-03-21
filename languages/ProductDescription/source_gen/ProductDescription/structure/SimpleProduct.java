@@ -22,6 +22,7 @@ public class SimpleProduct extends ProductType implements INamedConcept, IFuncti
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String RESOLVE_INFO = "resolveInfo";
   public static final String RATE_CALCULATION = "rateCalculation";
+  public static final String TESTCASE = "testcase";
   public static final String TYPE = "type";
   public static final String ATTRIBUTES = "attributes";
   public static final String SMODEL_ATTRIBUTE = "smodelAttribute";
@@ -77,6 +78,14 @@ public class SimpleProduct extends ProductType implements INamedConcept, IFuncti
 
   public void setRateCalculation(StatementList node) {
     super.setChild(SimpleProduct.RATE_CALCULATION, node);
+  }
+
+  public ProductTestSuite getTestcase() {
+    return (ProductTestSuite) this.getChild(ProductTestSuite.class, SimpleProduct.TESTCASE);
+  }
+
+  public void setTestcase(ProductTestSuite node) {
+    super.setChild(SimpleProduct.TESTCASE, node);
   }
 
   public Type getType() {

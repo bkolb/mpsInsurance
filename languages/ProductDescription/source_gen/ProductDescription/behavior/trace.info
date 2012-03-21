@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="TestCase_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.TestCase_BehaviorDescriptor" />
+  <unitInfo fileName="ProductTestSuite_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.ProductTestSuite_BehaviorDescriptor" />
   <unitInfo fileName="AttributeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.AttributeRef_BehaviorDescriptor" />
   <unitInfo fileName="ProductReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.ProductReference_BehaviorDescriptor" />
   <unitInfo fileName="Date_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.Date_BehaviorDescriptor" />
@@ -8,7 +10,25 @@
   <unitInfo fileName="ContractType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.ContractType_BehaviorDescriptor" />
   <unitInfo fileName="ProductDescription_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.ProductDescription_BehaviorDescriptor" />
   <unitInfo fileName="SimpleProduct_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="ProductDescription.behavior.SimpleProduct_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="ProductDescription.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="40" endPosition="0" unitName="ProductDescription.behavior.BehaviorAspectDescriptor" />
+  <root nodeId="1850134002004986960">
+    <nodeInfo nodeId="1850134002004986989" fileName="TestCase_Behavior.java" startLine="15" startPosition="42" endLine="16" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004987070" fileName="TestCase_Behavior.java" startLine="17" startPosition="5" endLine="18" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004986960" fileName="TestCase_Behavior.java" startLine="10" startPosition="32" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1850134002004986970" fileName="TestCase_Behavior.java" startLine="14" startPosition="90" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="1850134002004986960" fileName="TestCase_Behavior.java" startLine="13" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_initialize_1850134002004986963#(Ljetbrains/mps/smodel/SNode;I)V" />
+    <scopeInfo nodeId="1850134002004986962" fileName="TestCase_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="1850134002004986972" fileName="TestCase_Behavior.java" startLine="15" startPosition="42" endLine="16" endPosition="190" />
+    <scopeInfo nodeId="1850134002004986960" fileName="TestCase_Behavior.java" startLine="10" startPosition="32" endLine="13" endPosition="0" />
+    <scopeInfo nodeId="1850134002004986970" fileName="TestCase_Behavior.java" startLine="14" startPosition="90" endLine="17" endPosition="5">
+      <varInfo nodeId="1850134002004986971" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004986966" fileName="TestCase_Behavior.java" startLine="14" startPosition="90" endLine="18" endPosition="112" />
+    <scopeInfo nodeId="1850134002004986960" fileName="TestCase_Behavior.java" startLine="13" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1850134002004986967" varName="paramCount" />
+    </scopeInfo>
+    <unitInfo nodeId="1850134002004986960" fileName="TestCase_Behavior.java" startLine="10" startPosition="0" endLine="21" endPosition="0" unitName="ProductDescription.behavior.TestCase_Behavior" />
+  </root>
   <root nodeId="6991865057876539266">
     <nodeInfo nodeId="6991865057876539270" fileName="SimpleProduct_Behavior.java" startLine="14" startPosition="43" endLine="15" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6991865057876574250" fileName="SimpleProduct_Behavior.java" startLine="15" startPosition="159" endLine="16" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="ProductDescription.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="ProductDescription.typesystem.TypesystemDescriptor" />
   <root nodeId="6991865057876569369">
     <nodeInfo nodeId="6991865057876569378" fileName="typeof_AttributeRef_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6991865057876569378" fileName="typeof_AttributeRef_InferenceRule.java" startLine="20" startPosition="44" endLine="21" endPosition="195" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -58,6 +58,75 @@
     <scopeInfo nodeId="6991865057876569404" fileName="typeof_Attribute_InferenceRule.java" startLine="29" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="6991865057876569404" fileName="typeof_Attribute_InferenceRule.java" startLine="17" startPosition="0" endLine="25" endPosition="0" />
     <unitInfo nodeId="6991865057876569404" fileName="typeof_Attribute_InferenceRule.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="ProductDescription.typesystem.typeof_Attribute_InferenceRule" />
+  </root>
+  <root nodeId="8619408613058330178">
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="25" startPosition="7" endLine="26" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="26" startPosition="60" endLine="27" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="28" startPosition="9" endLine="29" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="29" startPosition="149" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="30" startPosition="56" endLine="31" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="37" startPosition="46" endLine="38" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="42" startPosition="5" endLine="43" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="43" startPosition="117" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="48" startPosition="30" endLine="49" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="19" startPosition="137" endLine="21" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="checkTestSuiteConsistency_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="41" startPosition="68" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="27" startPosition="241" endLine="32" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="24" startPosition="278" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058330182" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="23" startPosition="118" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="20" startPosition="56" endLine="20" endPosition="56" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="37" startPosition="46" endLine="38" endPosition="59" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="48" startPosition="30" endLine="49" endPosition="17" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="19" startPosition="137" endLine="21" endPosition="3" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="42" startPosition="5" endLine="44" endPosition="45" />
+    <scopeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="28" startPosition="9" endLine="31" endPosition="71" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="41" startPosition="68" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="8619408613058330248" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="25" startPosition="7" endLine="32" endPosition="9" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="8619408613058330184" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="24" startPosition="278" endLine="33" endPosition="7" />
+    <scopeInfo nodeId="8619408613058330179" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="23" startPosition="118" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="36" endPosition="0" />
+    <unitInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="52" endPosition="0" unitName="ProductDescription.typesystem.checkTestSuiteConsistency_NonTypesystemRule" />
+  </root>
+  <root nodeId="8619408613058330253">
+    <nodeInfo nodeId="8619408613058330293" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="17" startPosition="35" endLine="18" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330357" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="41" endLine="22" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058330392" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="162" endLine="27" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330434" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="28" startPosition="9" endLine="29" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330442" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="29" startPosition="104" endLine="30" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330415" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="30" startPosition="58" endLine="31" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="13" startPosition="73" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="fixInconsistentTestSuite_QuickFix#()V" />
+    <nodeInfo nodeId="8619408613058330378" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="28" endLine="28" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="200" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="8619408613058330347" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="19" startPosition="107" endLine="24" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330367" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="24" startPosition="9" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8619408613058330265" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="18" startPosition="185" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="16" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="14" startPosition="46" endLine="14" endPosition="46" />
+    <scopeInfo nodeId="8619408613058330356" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="41" endLine="22" endPosition="68" />
+    <scopeInfo nodeId="8619408613058330381" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="162" endLine="27" endPosition="109" />
+    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="13" startPosition="73" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="8619408613058330378" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="28" endLine="28" endPosition="9" />
+    <scopeInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="200" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="8619408613058330368" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="28" endLine="31" endPosition="165">
+      <varInfo nodeId="8619408613058330435" varName="ref" />
+    </scopeInfo>
+    <scopeInfo nodeId="8619408613058330268" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="19" startPosition="107" endLine="32" endPosition="7">
+      <varInfo nodeId="8619408613058330348" varName="attrRef" />
+    </scopeInfo>
+    <scopeInfo nodeId="8619408613058330265" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="18" startPosition="185" endLine="33" endPosition="5" />
+    <scopeInfo nodeId="8619408613058330255" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="17" startPosition="35" endLine="33" endPosition="5">
+      <varInfo nodeId="8619408613058330294" varName="product" />
+    </scopeInfo>
+    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="16" startPosition="0" endLine="35" endPosition="0" />
+    <unitInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="177" endLine="24" endPosition="7" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix$1" />
+    <unitInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="13" startPosition="0" endLine="36" endPosition="0" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix" />
   </root>
 </debugInfo>
 

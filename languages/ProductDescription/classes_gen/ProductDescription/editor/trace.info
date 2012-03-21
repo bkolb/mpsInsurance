@@ -1,5 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeId="1850134002004981849">
+    <nodeInfo nodeId="1850134002004981849" fileName="TestCase_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="16" startPosition="87" endLine="17" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="17" startPosition="86" endLine="18" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="17" startPosition="86" endLine="18" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="18" startPosition="46" endLine="19" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="19" startPosition="34" endLine="20" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981849" fileName="TestCase_Editor.java" startLine="11" startPosition="56" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="15" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_g8b7hx_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="1850134002004981849" fileName="TestCase_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="61" />
+    <scopeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="17" startPosition="86" endLine="18" endPosition="46" />
+    <scopeInfo nodeId="1850134002004981849" fileName="TestCase_Editor.java" startLine="11" startPosition="56" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="16" startPosition="87" endLine="20" endPosition="22" />
+    <scopeInfo nodeId="1850134002004981851" fileName="TestCase_Editor.java" startLine="15" startPosition="0" endLine="22" endPosition="0" />
+    <unitInfo nodeId="1850134002004981849" fileName="TestCase_Editor.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.editor.TestCase_Editor" />
+  </root>
+  <root nodeId="1850134002004981853">
+    <nodeInfo nodeId="1850134002004981853" fileName="ProductTestSuite_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="28" startPosition="83" endLine="29" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="32" startPosition="90" endLine="33" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="33" startPosition="99" endLine="34" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="33" startPosition="99" endLine="34" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="34" startPosition="49" endLine="35" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="34" startPosition="49" endLine="35" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="35" startPosition="84" endLine="36" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="35" startPosition="84" endLine="36" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="36" startPosition="79" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="40" startPosition="88" endLine="41" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="41" startPosition="91" endLine="42" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="41" startPosition="91" endLine="42" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="42" startPosition="47" endLine="43" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="43" startPosition="34" endLine="44" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058273011" fileName="ProductTestSuite_Editor.java" startLine="47" startPosition="91" endLine="48" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058273011" fileName="ProductTestSuite_Editor.java" startLine="48" startPosition="74" endLine="49" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004987130" fileName="ProductTestSuite_Editor.java" startLine="54" startPosition="87" endLine="55" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="57" startPosition="6" endLine="58" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="58" startPosition="148" endLine="59" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="60" startPosition="5" endLine="61" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="61" startPosition="42" endLine="62" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="62" startPosition="62" endLine="63" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="64" startPosition="5" endLine="65" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981853" fileName="ProductTestSuite_Editor.java" startLine="19" startPosition="64" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="53" startPosition="57" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/lang/editor/table/runtime/TableModel;" />
+    <nodeInfo nodeId="8619408613058273011" fileName="ProductTestSuite_Editor.java" startLine="46" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createIndentCell_m3bw6i_a1a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="52" startPosition="86" endLine="57" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="59" startPosition="47" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="58" startPosition="148" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="39" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_m3bw6i_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="23" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_m3bw6i_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="31" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_m3bw6i_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="51" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTable_m3bw6i_b1a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="1850134002004981853" fileName="ProductTestSuite_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" />
+    <scopeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="48" />
+    <scopeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="81" />
+    <scopeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="83" />
+    <scopeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="33" startPosition="99" endLine="34" endPosition="49" />
+    <scopeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="34" startPosition="49" endLine="35" endPosition="84" />
+    <scopeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="35" startPosition="84" endLine="36" endPosition="79" />
+    <scopeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="41" startPosition="91" endLine="42" endPosition="47" />
+    <scopeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="54" startPosition="87" endLine="55" endPosition="162" />
+    <scopeInfo nodeId="8619408613058273011" fileName="ProductTestSuite_Editor.java" startLine="47" startPosition="91" endLine="49" endPosition="18" />
+    <scopeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="60" startPosition="5" endLine="63" endPosition="65" />
+    <scopeInfo nodeId="1850134002004981853" fileName="ProductTestSuite_Editor.java" startLine="19" startPosition="64" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="40" startPosition="88" endLine="44" endPosition="22" />
+    <scopeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="53" startPosition="57" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="24" startPosition="89" endLine="29" endPosition="22" />
+    <scopeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="32" startPosition="90" endLine="37" endPosition="22" />
+    <scopeInfo nodeId="8619408613058273011" fileName="ProductTestSuite_Editor.java" startLine="46" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="58" startPosition="148" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="8619408613058272721" fileName="ProductTestSuite_Editor.java" startLine="39" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="8619408613058272718" fileName="ProductTestSuite_Editor.java" startLine="23" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="8619408613058273008" fileName="ProductTestSuite_Editor.java" startLine="31" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="52" startPosition="86" endLine="65" endPosition="22" />
+    <scopeInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="51" startPosition="0" endLine="67" endPosition="0" />
+    <unitInfo nodeId="1850134002004981894" fileName="ProductTestSuite_Editor.java" startLine="53" startPosition="36" endLine="57" endPosition="5" unitName="ProductDescription.editor.ProductTestSuite_Editor$1" />
+    <unitInfo nodeId="1850134002004981853" fileName="ProductTestSuite_Editor.java" startLine="19" startPosition="0" endLine="68" endPosition="0" unitName="ProductDescription.editor.ProductTestSuite_Editor" />
+  </root>
+  <root nodeId="1850134002004981897">
+    <nodeInfo nodeId="1850134002004981975" fileName="ProductTestSuiteTableModel.java" startLine="16" startPosition="63" endLine="17" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="product" />
+    <nodeInfo nodeId="1850134002004995503" fileName="ProductTestSuiteTableModel.java" startLine="17" startPosition="24" endLine="18" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="editorCtx" />
+    <nodeInfo nodeId="1850134002004981965" fileName="ProductTestSuiteTableModel.java" startLine="20" startPosition="77" endLine="21" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004995507" fileName="ProductTestSuiteTableModel.java" startLine="21" startPosition="27" endLine="22" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058332668" fileName="ProductTestSuiteTableModel.java" startLine="32" startPosition="25" endLine="33" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004986942" fileName="ProductTestSuiteTableModel.java" startLine="34" startPosition="5" endLine="35" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004986950" fileName="ProductTestSuiteTableModel.java" startLine="35" startPosition="95" endLine="36" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004986913" fileName="ProductTestSuiteTableModel.java" startLine="36" startPosition="75" endLine="37" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058320869" fileName="ProductTestSuiteTableModel.java" startLine="42" startPosition="34" endLine="43" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058320807" fileName="ProductTestSuiteTableModel.java" startLine="44" startPosition="14" endLine="45" endPosition="326" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004995569" fileName="ProductTestSuiteTableModel.java" startLine="48" startPosition="33" endLine="49" endPosition="315" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004995571" fileName="ProductTestSuiteTableModel.java" startLine="50" startPosition="14" endLine="51" endPosition="318" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058320748" fileName="ProductTestSuiteTableModel.java" startLine="61" startPosition="33" endLine="62" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058320854" fileName="ProductTestSuiteTableModel.java" startLine="63" startPosition="14" endLine="64" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004982177" fileName="ProductTestSuiteTableModel.java" startLine="66" startPosition="12" endLine="67" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004982192" fileName="ProductTestSuiteTableModel.java" startLine="68" startPosition="110" endLine="69" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004982265" fileName="ProductTestSuiteTableModel.java" startLine="70" startPosition="7" endLine="71" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004986870" fileName="ProductTestSuiteTableModel.java" startLine="76" startPosition="25" endLine="77" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004982027" fileName="ProductTestSuiteTableModel.java" startLine="81" startPosition="28" endLine="82" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981988" fileName="ProductTestSuiteTableModel.java" startLine="85" startPosition="31" endLine="86" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002005000015" fileName="ProductTestSuiteTableModel.java" startLine="89" startPosition="26" endLine="90" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002005000045" fileName="ProductTestSuiteTableModel.java" startLine="93" startPosition="30" endLine="94" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058320882" fileName="ProductTestSuiteTableModel.java" startLine="44" startPosition="12" endLine="46" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004995567" fileName="ProductTestSuiteTableModel.java" startLine="50" startPosition="12" endLine="52" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058320852" fileName="ProductTestSuiteTableModel.java" startLine="63" startPosition="12" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981905" fileName="ProductTestSuiteTableModel.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertColumn#(I)V" />
+    <nodeInfo nodeId="1850134002004981911" fileName="ProductTestSuiteTableModel.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="deleteColumn#(I)V" />
+    <nodeInfo nodeId="8619408613058332657" fileName="ProductTestSuiteTableModel.java" startLine="31" startPosition="40" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1850134002004981931" fileName="ProductTestSuiteTableModel.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createElement#(II)V" />
+    <nodeInfo nodeId="1850134002004982217" fileName="ProductTestSuiteTableModel.java" startLine="67" startPosition="74" endLine="70" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1850134002004994833" fileName="ProductTestSuiteTableModel.java" startLine="75" startPosition="40" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1850134002004981899" fileName="ProductTestSuiteTableModel.java" startLine="19" startPosition="0" endLine="23" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ProductTestSuiteTableModel#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="1850134002004981953" fileName="ProductTestSuiteTableModel.java" startLine="80" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRowCount#()I" />
+    <nodeInfo nodeId="1850134002004981957" fileName="ProductTestSuiteTableModel.java" startLine="84" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getColumnCount#()I" />
+    <nodeInfo nodeId="1850134002005000010" fileName="ProductTestSuiteTableModel.java" startLine="88" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="attrCount#()I" />
+    <nodeInfo nodeId="1850134002005000041" fileName="ProductTestSuiteTableModel.java" startLine="92" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="cases#()Ljava/util/List;" />
+    <nodeInfo nodeId="8619408613058320858" fileName="ProductTestSuiteTableModel.java" startLine="41" startPosition="19" endLine="46" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1850134002004995527" fileName="ProductTestSuiteTableModel.java" startLine="47" startPosition="12" endLine="52" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8619408613058320828" fileName="ProductTestSuiteTableModel.java" startLine="60" startPosition="19" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8619408613058320805" fileName="ProductTestSuiteTableModel.java" startLine="47" startPosition="10" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8619408613058305453" fileName="ProductTestSuiteTableModel.java" startLine="66" startPosition="10" endLine="72" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981947" fileName="ProductTestSuiteTableModel.java" startLine="74" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="deleteRow#(I)V" />
+    <nodeInfo nodeId="1850134002004981917" fileName="ProductTestSuiteTableModel.java" startLine="30" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertRow#(I)V" />
+    <nodeInfo nodeId="8619408613058320794" fileName="ProductTestSuiteTableModel.java" startLine="40" startPosition="68" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8619408613058305442" fileName="ProductTestSuiteTableModel.java" startLine="59" startPosition="48" endLine="72" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1850134002004981923" fileName="ProductTestSuiteTableModel.java" startLine="39" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSubstituteInfo#(II)Ljetbrains/mps/nodeEditor/cellMenu/NodeSubstituteInfo;" />
+    <nodeInfo nodeId="1850134002004981939" fileName="ProductTestSuiteTableModel.java" startLine="58" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAt#(II)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="1850134002004981910" fileName="ProductTestSuiteTableModel.java" startLine="25" startPosition="46" endLine="25" endPosition="46" />
+    <scopeInfo nodeId="1850134002004981916" fileName="ProductTestSuiteTableModel.java" startLine="28" startPosition="46" endLine="28" endPosition="46" />
+    <scopeInfo nodeId="1850134002004981938" fileName="ProductTestSuiteTableModel.java" startLine="56" startPosition="50" endLine="56" endPosition="50" />
+    <scopeInfo nodeId="8619408613058332658" fileName="ProductTestSuiteTableModel.java" startLine="32" startPosition="25" endLine="33" endPosition="13" />
+    <scopeInfo nodeId="8619408613058320859" fileName="ProductTestSuiteTableModel.java" startLine="42" startPosition="34" endLine="43" endPosition="20" />
+    <scopeInfo nodeId="8619408613058320883" fileName="ProductTestSuiteTableModel.java" startLine="44" startPosition="14" endLine="45" endPosition="326" />
+    <scopeInfo nodeId="1850134002004995528" fileName="ProductTestSuiteTableModel.java" startLine="48" startPosition="33" endLine="49" endPosition="315" />
+    <scopeInfo nodeId="1850134002004995568" fileName="ProductTestSuiteTableModel.java" startLine="50" startPosition="14" endLine="51" endPosition="318" />
+    <scopeInfo nodeId="8619408613058320829" fileName="ProductTestSuiteTableModel.java" startLine="61" startPosition="33" endLine="62" endPosition="163" />
+    <scopeInfo nodeId="8619408613058320853" fileName="ProductTestSuiteTableModel.java" startLine="63" startPosition="14" endLine="64" endPosition="20" />
+    <scopeInfo nodeId="1850134002004982218" fileName="ProductTestSuiteTableModel.java" startLine="68" startPosition="110" endLine="69" endPosition="115" />
+    <scopeInfo nodeId="1850134002004994834" fileName="ProductTestSuiteTableModel.java" startLine="76" startPosition="25" endLine="77" endPosition="64" />
+    <scopeInfo nodeId="1850134002004981956" fileName="ProductTestSuiteTableModel.java" startLine="81" startPosition="28" endLine="82" endPosition="147" />
+    <scopeInfo nodeId="1850134002004981960" fileName="ProductTestSuiteTableModel.java" startLine="85" startPosition="31" endLine="86" endPosition="27" />
+    <scopeInfo nodeId="1850134002005000013" fileName="ProductTestSuiteTableModel.java" startLine="89" startPosition="26" endLine="90" endPosition="148" />
+    <scopeInfo nodeId="1850134002005000044" fileName="ProductTestSuiteTableModel.java" startLine="93" startPosition="30" endLine="94" endPosition="112" />
+    <scopeInfo nodeId="1850134002004981902" fileName="ProductTestSuiteTableModel.java" startLine="20" startPosition="77" endLine="22" endPosition="31" />
+    <scopeInfo nodeId="1850134002004981905" fileName="ProductTestSuiteTableModel.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="1850134002004981908" varName="columnNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981911" fileName="ProductTestSuiteTableModel.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="1850134002004981914" varName="columnNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981931" fileName="ProductTestSuiteTableModel.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="1850134002004981936" varName="column" />
+      <varInfo nodeId="1850134002004981934" varName="row" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981952" fileName="ProductTestSuiteTableModel.java" startLine="75" startPosition="40" endLine="78" endPosition="5" />
+    <scopeInfo nodeId="1850134002004981899" fileName="ProductTestSuiteTableModel.java" startLine="19" startPosition="0" endLine="23" endPosition="3">
+      <varInfo nodeId="1850134002004981963" varName="product" />
+      <varInfo nodeId="1850134002004995499" varName="editorCtx" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981953" fileName="ProductTestSuiteTableModel.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="1850134002004981957" fileName="ProductTestSuiteTableModel.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="1850134002005000010" fileName="ProductTestSuiteTableModel.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
+    <scopeInfo nodeId="1850134002005000041" fileName="ProductTestSuiteTableModel.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="8619408613058320795" fileName="ProductTestSuiteTableModel.java" startLine="41" startPosition="19" endLine="46" endPosition="7" />
+    <scopeInfo nodeId="8619408613058320806" fileName="ProductTestSuiteTableModel.java" startLine="47" startPosition="12" endLine="52" endPosition="7" />
+    <scopeInfo nodeId="8619408613058305443" fileName="ProductTestSuiteTableModel.java" startLine="60" startPosition="19" endLine="65" endPosition="7" />
+    <scopeInfo nodeId="8619408613058305454" fileName="ProductTestSuiteTableModel.java" startLine="66" startPosition="12" endLine="71" endPosition="73">
+      <varInfo nodeId="1850134002004982178" varName="testcase" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981922" fileName="ProductTestSuiteTableModel.java" startLine="31" startPosition="40" endLine="37" endPosition="68">
+      <varInfo nodeId="1850134002004986943" varName="tc" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981947" fileName="ProductTestSuiteTableModel.java" startLine="74" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="1850134002004981950" varName="rowNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981917" fileName="ProductTestSuiteTableModel.java" startLine="30" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="1850134002004981920" varName="rowNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981930" fileName="ProductTestSuiteTableModel.java" startLine="40" startPosition="68" endLine="53" endPosition="5" />
+    <scopeInfo nodeId="1850134002004981946" fileName="ProductTestSuiteTableModel.java" startLine="59" startPosition="48" endLine="72" endPosition="5" />
+    <scopeInfo nodeId="1850134002004981923" fileName="ProductTestSuiteTableModel.java" startLine="39" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="1850134002004981926" varName="column" />
+      <varInfo nodeId="1850134002004981924" varName="row" />
+    </scopeInfo>
+    <scopeInfo nodeId="1850134002004981939" fileName="ProductTestSuiteTableModel.java" startLine="58" startPosition="0" endLine="74" endPosition="0">
+      <varInfo nodeId="1850134002004981944" varName="column" />
+      <varInfo nodeId="1850134002004981942" varName="row" />
+    </scopeInfo>
+    <unitInfo nodeId="1850134002004981897" fileName="ProductTestSuiteTableModel.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="ProductDescription.editor.ProductTestSuiteTableModel" />
+  </root>
   <root nodeId="6991865057876493973">
     <nodeInfo nodeId="6991865057876494015" fileName="ProductDescription_Editor.java" startLine="85" startPosition="58" endLine="85" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="6991865057876494020" fileName="ProductDescription_Editor.java" startLine="102" startPosition="58" endLine="102" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -598,110 +793,132 @@
     <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="37" startPosition="83" endLine="38" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="38" startPosition="81" endLine="39" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="38" startPosition="81" endLine="39" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="39" startPosition="80" endLine="40" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="43" startPosition="90" endLine="44" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="44" startPosition="96" endLine="45" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="46" startPosition="5" endLine="47" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="47" startPosition="42" endLine="48" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="48" startPosition="51" endLine="49" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="49" startPosition="60" endLine="50" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="51" startPosition="5" endLine="52" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="51" startPosition="5" endLine="52" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="52" startPosition="85" endLine="53" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="56" startPosition="88" endLine="57" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="57" startPosition="96" endLine="58" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="59" startPosition="5" endLine="60" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="60" startPosition="42" endLine="61" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="61" startPosition="65" endLine="62" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="63" startPosition="5" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="68" startPosition="88" endLine="69" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="69" startPosition="95" endLine="70" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="71" startPosition="5" endLine="72" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="72" startPosition="42" endLine="73" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="73" startPosition="65" endLine="74" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="75" startPosition="5" endLine="76" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="76" startPosition="34" endLine="77" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="80" startPosition="92" endLine="81" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="81" startPosition="131" endLine="82" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="82" startPosition="106" endLine="83" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="84" startPosition="5" endLine="85" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="85" startPosition="42" endLine="86" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="86" startPosition="65" endLine="87" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="87" startPosition="60" endLine="88" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="89" startPosition="5" endLine="90" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="90" startPosition="49" endLine="91" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="94" startPosition="87" endLine="95" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="95" startPosition="81" endLine="96" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="96" startPosition="40" endLine="97" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="97" startPosition="53" endLine="98" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="98" startPosition="26" endLine="99" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="100" startPosition="5" endLine="101" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="101" startPosition="42" endLine="102" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="103" startPosition="5" endLine="104" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="104" startPosition="73" endLine="105" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="105" startPosition="57" endLine="106" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="107" startPosition="35" endLine="108" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="108" startPosition="72" endLine="109" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="109" startPosition="78" endLine="110" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="111" startPosition="10" endLine="112" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="115" startPosition="88" endLine="116" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="116" startPosition="82" endLine="117" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="117" startPosition="29" endLine="118" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="118" startPosition="42" endLine="119" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="119" startPosition="26" endLine="120" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="120" startPosition="58" endLine="121" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="120" startPosition="58" endLine="121" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="121" startPosition="42" endLine="122" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="122" startPosition="73" endLine="123" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="123" startPosition="57" endLine="124" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="125" startPosition="35" endLine="126" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="126" startPosition="72" endLine="127" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="127" startPosition="78" endLine="128" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="129" startPosition="10" endLine="130" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="134" startPosition="103" endLine="135" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="138" startPosition="66" endLine="139" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="139" startPosition="41" endLine="140" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="143" startPosition="86" endLine="144" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="144" startPosition="80" endLine="145" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="145" startPosition="95" endLine="146" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="149" startPosition="68" endLine="150" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="150" startPosition="34" endLine="151" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="151" startPosition="55" endLine="152" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="152" startPosition="87" endLine="153" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="157" startPosition="96" endLine="158" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="159" startPosition="34" endLine="160" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="162" startPosition="131" endLine="163" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="119" startPosition="26" endLine="122" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="133" startPosition="84" endLine="136" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="attributesListHandler_iahs4n_a2a#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="158" startPosition="134" endLine="161" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="161" startPosition="9" endLine="164" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="39" startPosition="80" endLine="40" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="39" startPosition="80" endLine="40" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="40" startPosition="80" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="44" startPosition="90" endLine="45" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="45" startPosition="96" endLine="46" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="47" startPosition="5" endLine="48" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="48" startPosition="42" endLine="49" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="49" startPosition="51" endLine="50" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="50" startPosition="60" endLine="51" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="52" startPosition="5" endLine="53" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="52" startPosition="5" endLine="53" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="53" startPosition="85" endLine="54" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="57" startPosition="88" endLine="58" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="58" startPosition="96" endLine="59" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="60" startPosition="5" endLine="61" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="61" startPosition="42" endLine="62" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="62" startPosition="65" endLine="63" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="64" startPosition="5" endLine="65" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="65" startPosition="34" endLine="66" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="69" startPosition="88" endLine="70" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="70" startPosition="95" endLine="71" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="72" startPosition="5" endLine="73" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="73" startPosition="42" endLine="74" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="74" startPosition="65" endLine="75" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="76" startPosition="5" endLine="77" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="77" startPosition="34" endLine="78" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="81" startPosition="92" endLine="82" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="82" startPosition="131" endLine="83" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="83" startPosition="106" endLine="84" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="85" startPosition="5" endLine="86" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="86" startPosition="42" endLine="87" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="87" startPosition="65" endLine="88" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="88" startPosition="60" endLine="89" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="90" startPosition="5" endLine="91" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="91" startPosition="49" endLine="92" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="95" startPosition="87" endLine="96" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="96" startPosition="81" endLine="97" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="97" startPosition="40" endLine="98" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="98" startPosition="53" endLine="99" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="99" startPosition="26" endLine="100" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="101" startPosition="5" endLine="102" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="102" startPosition="42" endLine="103" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="104" startPosition="5" endLine="105" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="105" startPosition="73" endLine="106" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="106" startPosition="57" endLine="107" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="108" startPosition="35" endLine="109" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="109" startPosition="72" endLine="110" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="110" startPosition="78" endLine="111" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="112" startPosition="10" endLine="113" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="116" startPosition="87" endLine="117" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="117" startPosition="81" endLine="118" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="118" startPosition="33" endLine="119" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="119" startPosition="46" endLine="120" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="120" startPosition="26" endLine="121" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="122" startPosition="5" endLine="123" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="123" startPosition="42" endLine="124" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="124" startPosition="65" endLine="125" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="126" startPosition="5" endLine="127" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="127" startPosition="73" endLine="128" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="128" startPosition="57" endLine="129" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="130" startPosition="35" endLine="131" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="131" startPosition="72" endLine="132" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="132" startPosition="78" endLine="133" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="134" startPosition="10" endLine="135" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="138" startPosition="88" endLine="139" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="139" startPosition="82" endLine="140" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="140" startPosition="29" endLine="141" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="141" startPosition="42" endLine="142" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="142" startPosition="26" endLine="143" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="143" startPosition="58" endLine="144" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="143" startPosition="58" endLine="144" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="144" startPosition="42" endLine="145" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="145" startPosition="73" endLine="146" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="146" startPosition="57" endLine="147" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="148" startPosition="35" endLine="149" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="149" startPosition="72" endLine="150" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="150" startPosition="78" endLine="151" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="152" startPosition="10" endLine="153" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="157" startPosition="103" endLine="158" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="161" startPosition="66" endLine="162" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="162" startPosition="41" endLine="163" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="166" startPosition="86" endLine="167" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="167" startPosition="80" endLine="168" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="168" startPosition="95" endLine="169" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="172" startPosition="68" endLine="173" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="173" startPosition="34" endLine="174" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="174" startPosition="55" endLine="175" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="175" startPosition="87" endLine="176" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="180" startPosition="96" endLine="181" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="182" startPosition="34" endLine="183" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="185" startPosition="131" endLine="186" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="142" startPosition="26" endLine="145" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="156" startPosition="84" endLine="159" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="attributesListHandler_iahs4n_a2a#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="181" startPosition="134" endLine="184" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="184" startPosition="9" endLine="187" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6991865057876521072" fileName="SimpleProduct_Editor.java" startLine="27" startPosition="61" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="99" startPosition="58" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="99" startPosition="58" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="58" startPosition="47" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="70" startPosition="47" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="137" startPosition="0" endLine="142" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="45" startPosition="49" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="57" startPosition="96" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="69" startPosition="95" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="83" startPosition="51" endLine="89" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="98" startPosition="26" endLine="104" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="106" startPosition="59" endLine="112" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="124" startPosition="59" endLine="130" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="142" startPosition="0" endLine="148" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="44" startPosition="96" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="82" startPosition="106" endLine="89" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="148" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="156" startPosition="132" endLine="165" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="31" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_iahs4n_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="55" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_iahs4n_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="67" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_iahs4n_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="155" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="42" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_iahs4n_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="79" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_iahs4n_a2a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="114" startPosition="0" endLine="132" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_iahs4n_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="93" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_iahs4n_e0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="100" startPosition="58" endLine="104" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="100" startPosition="58" endLine="104" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="59" startPosition="47" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="71" startPosition="47" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="121" startPosition="58" endLine="126" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="121" startPosition="58" endLine="126" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="160" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="46" startPosition="49" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="58" startPosition="96" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="70" startPosition="95" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="84" startPosition="51" endLine="90" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="99" startPosition="26" endLine="105" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="107" startPosition="59" endLine="113" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="129" startPosition="59" endLine="135" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="147" startPosition="59" endLine="153" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="165" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="45" startPosition="96" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="83" startPosition="106" endLine="90" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="120" startPosition="26" endLine="127" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="171" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="179" startPosition="132" endLine="188" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="31" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_iahs4n_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="56" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_iahs4n_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="68" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_iahs4n_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="178" startPosition="0" endLine="190" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="43" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_iahs4n_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="80" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_iahs4n_a2a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="137" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_iahs4n_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="94" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_iahs4n_e0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="115" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_iahs4n_f0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <scopeInfo nodeId="6991865057876521072" fileName="SimpleProduct_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" />
     <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="33" startPosition="96" endLine="34" endPosition="48" />
     <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="34" startPosition="48" endLine="35" endPosition="81" />
@@ -709,52 +926,59 @@
     <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="36" startPosition="81" endLine="37" endPosition="83" />
     <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="37" startPosition="83" endLine="38" endPosition="81" />
     <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="38" startPosition="81" endLine="39" endPosition="80" />
-    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="51" startPosition="5" endLine="52" endPosition="85" />
-    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="120" startPosition="58" endLine="121" endPosition="42" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="134" startPosition="103" endLine="135" endPosition="50" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="159" startPosition="34" endLine="160" endPosition="95" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="162" startPosition="131" endLine="163" endPosition="139" />
-    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="100" startPosition="5" endLine="102" endPosition="60" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="138" startPosition="66" endLine="140" endPosition="93" />
-    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="59" startPosition="5" endLine="62" endPosition="60" />
-    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="71" startPosition="5" endLine="74" endPosition="60" />
-    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="107" startPosition="35" endLine="110" endPosition="105" />
-    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="119" startPosition="26" endLine="122" endPosition="73" />
-    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="125" startPosition="35" endLine="128" endPosition="105" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="133" startPosition="84" endLine="136" endPosition="5" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="143" startPosition="86" endLine="146" endPosition="25" />
+    <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="39" startPosition="80" endLine="40" endPosition="80" />
+    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="52" startPosition="5" endLine="53" endPosition="85" />
+    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="143" startPosition="58" endLine="144" endPosition="42" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="157" startPosition="103" endLine="158" endPosition="50" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="182" startPosition="34" endLine="183" endPosition="95" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="185" startPosition="131" endLine="186" endPosition="139" />
+    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="101" startPosition="5" endLine="103" endPosition="60" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="161" startPosition="66" endLine="163" endPosition="93" />
+    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="60" startPosition="5" endLine="63" endPosition="60" />
+    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="72" startPosition="5" endLine="75" endPosition="60" />
+    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="108" startPosition="35" endLine="111" endPosition="105" />
+    <scopeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="122" startPosition="5" endLine="125" endPosition="60" />
+    <scopeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="130" startPosition="35" endLine="133" endPosition="105" />
+    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="142" startPosition="26" endLine="145" endPosition="73" />
+    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="148" startPosition="35" endLine="151" endPosition="105" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="156" startPosition="84" endLine="159" endPosition="5" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="166" startPosition="86" endLine="169" endPosition="25" />
     <scopeInfo nodeId="6991865057876521072" fileName="SimpleProduct_Editor.java" startLine="27" startPosition="61" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="46" startPosition="5" endLine="50" endPosition="65" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="84" startPosition="5" endLine="88" endPosition="70" />
-    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="99" startPosition="58" endLine="103" endPosition="5" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="149" startPosition="68" endLine="153" endPosition="23" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="137" startPosition="0" endLine="142" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="57" startPosition="96" endLine="63" endPosition="5" />
-    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="69" startPosition="95" endLine="75" endPosition="5" />
-    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="98" startPosition="26" endLine="104" endPosition="73" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="142" startPosition="0" endLine="148" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="44" startPosition="96" endLine="51" endPosition="5" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="82" startPosition="106" endLine="89" endPosition="5" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="148" startPosition="0" endLine="155" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="157" startPosition="96" endLine="164" endPosition="9" />
-    <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="32" startPosition="89" endLine="40" endPosition="22" />
-    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="56" startPosition="88" endLine="65" endPosition="22" />
-    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="68" startPosition="88" endLine="77" endPosition="22" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="156" startPosition="132" endLine="165" endPosition="7" />
-    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="43" startPosition="90" endLine="53" endPosition="22" />
-    <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="31" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="80" startPosition="92" endLine="91" endPosition="22" />
-    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="55" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="67" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="155" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="42" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="79" startPosition="0" endLine="93" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="115" startPosition="88" endLine="130" endPosition="22" />
-    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="94" startPosition="87" endLine="112" endPosition="22" />
-    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="114" startPosition="0" endLine="132" endPosition="0" />
-    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="93" startPosition="0" endLine="114" endPosition="0" />
-    <unitInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="133" startPosition="0" endLine="168" endPosition="0" unitName="ProductDescription.editor.SimpleProduct_Editor$attributesListHandler_iahs4n_a2a" />
-    <unitInfo nodeId="6991865057876521072" fileName="SimpleProduct_Editor.java" startLine="27" startPosition="0" endLine="169" endPosition="0" unitName="ProductDescription.editor.SimpleProduct_Editor" />
+    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="47" startPosition="5" endLine="51" endPosition="65" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="85" startPosition="5" endLine="89" endPosition="70" />
+    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="100" startPosition="58" endLine="104" endPosition="5" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="172" startPosition="68" endLine="176" endPosition="23" />
+    <scopeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="121" startPosition="58" endLine="126" endPosition="5" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="160" startPosition="0" endLine="165" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="58" startPosition="96" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="70" startPosition="95" endLine="76" endPosition="5" />
+    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="99" startPosition="26" endLine="105" endPosition="73" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="165" startPosition="0" endLine="171" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="45" startPosition="96" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="83" startPosition="106" endLine="90" endPosition="5" />
+    <scopeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="120" startPosition="26" endLine="127" endPosition="73" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="171" startPosition="0" endLine="178" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="180" startPosition="96" endLine="187" endPosition="9" />
+    <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="32" startPosition="89" endLine="41" endPosition="22" />
+    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="57" startPosition="88" endLine="66" endPosition="22" />
+    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="69" startPosition="88" endLine="78" endPosition="22" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="179" startPosition="132" endLine="188" endPosition="7" />
+    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="44" startPosition="90" endLine="54" endPosition="22" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="81" startPosition="92" endLine="92" endPosition="22" />
+    <scopeInfo nodeId="6991865057876521074" fileName="SimpleProduct_Editor.java" startLine="31" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546193" fileName="SimpleProduct_Editor.java" startLine="56" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="6991865057876534679" fileName="SimpleProduct_Editor.java" startLine="68" startPosition="0" endLine="80" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="178" startPosition="0" endLine="190" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546198" fileName="SimpleProduct_Editor.java" startLine="43" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="80" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="138" startPosition="88" endLine="153" endPosition="22" />
+    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="95" startPosition="87" endLine="113" endPosition="22" />
+    <scopeInfo nodeId="6991865057876521077" fileName="SimpleProduct_Editor.java" startLine="137" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="116" startPosition="87" endLine="135" endPosition="22" />
+    <scopeInfo nodeId="6991865057876534681" fileName="SimpleProduct_Editor.java" startLine="94" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="1850134002004981841" fileName="SimpleProduct_Editor.java" startLine="115" startPosition="0" endLine="137" endPosition="0" />
+    <unitInfo nodeId="6991865057876546187" fileName="SimpleProduct_Editor.java" startLine="156" startPosition="0" endLine="191" endPosition="0" unitName="ProductDescription.editor.SimpleProduct_Editor$attributesListHandler_iahs4n_a2a" />
+    <unitInfo nodeId="6991865057876521072" fileName="SimpleProduct_Editor.java" startLine="27" startPosition="0" endLine="192" endPosition="0" unitName="ProductDescription.editor.SimpleProduct_Editor" />
   </root>
   <root nodeId="6991865057876540992">
     <nodeInfo nodeId="6991865057876541001" fileName="Attribute_Editor.java" startLine="43" startPosition="58" endLine="43" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />

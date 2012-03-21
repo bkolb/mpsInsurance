@@ -141,6 +141,10 @@
       <property name="name" nameId="tpck.1169194664001" value="groesse" />
       <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="6991865057876577197" />
     </node>
+    <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="8619408613058334731">
+      <property name="name" nameId="tpck.1169194664001" value="dsummy" />
+      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="8619408613058334735" />
+    </node>
     <node role="rateCalculation" roleId="xikn.6991865057876534648" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6991865057876577193">
       <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="6991865057876577198">
         <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="6991865057876577203">
@@ -202,6 +206,30 @@
       </node>
     </node>
     <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int64tType" typeId="mj1l.8463282783691618445" id="6991865057876577194" />
+    <node role="testcase" roleId="xikn.1850134002004981838" type="xikn.ProductTestSuite" typeId="xikn.1850134002004981839" id="8619408613058333894">
+      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8619408613058333897">
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8619408613058334725">
+          <property name="value" nameId="mj1l.8860443239512128104" value="10" />
+        </node>
+        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8619408613058334726">
+          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
+        </node>
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.Expression" typeId="mj1l.8860443239512128050" id="8619408613058334729" />
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.Expression" typeId="mj1l.8860443239512128050" id="8619408613058334733" />
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8619408613058333895">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="groesse" />
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8619408613058333896">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058332649" resolveInfo="dummy" />
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8619408613058334730">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334727" />
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8619408613058334734">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="dsummy" />
+      </node>
+    </node>
   </root>
 </model>
 
