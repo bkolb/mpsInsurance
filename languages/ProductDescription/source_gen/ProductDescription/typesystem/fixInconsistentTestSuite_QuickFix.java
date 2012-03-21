@@ -9,6 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 public class fixInconsistentTestSuite_QuickFix extends QuickFix_Runtime {
   public fixInconsistentTestSuite_QuickFix() {
@@ -29,6 +30,21 @@ public class fixInconsistentTestSuite_QuickFix extends QuickFix_Runtime {
         SNode ref = SConceptOperations.createNewNode("ProductDescription.structure.AttributeRef", null);
         SLinkOperations.setTarget(ref, "attr", pa, false);
         ListSequence.fromList(SLinkOperations.getTargets(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0]), "attributes", true)).addElement(ref);
+      }
+    }
+    for (final SNode attrRef : ListSequence.fromList(SLinkOperations.getTargets(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0]), "attributes", true))) {
+      SNode pa = ListSequence.fromList(SLinkOperations.getTargets(product, "attributes", true)).findFirst(new IWhereFilter<SNode>() {
+        public boolean accept(SNode it) {
+          return SLinkOperations.getTarget(attrRef, "attr", false) == it;
+        }
+      });
+      if (pa == null) {
+        ListSequence.fromList(SLinkOperations.getTargets(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0]), "cases", true)).visitAll(new IVisitor<SNode>() {
+          public void visit(SNode it) {
+            ListSequence.fromList(SLinkOperations.getTargets(it, "inputValues", true)).removeElementAt(SNodeOperations.getIndexInParent(attrRef));
+          }
+        });
+        ListSequence.fromList(SLinkOperations.getTargets(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0]), "attributes", true)).removeElement(attrRef);
       }
     }
   }

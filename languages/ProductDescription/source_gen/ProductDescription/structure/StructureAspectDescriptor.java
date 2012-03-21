@@ -32,7 +32,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 7:
         return new CompiledConceptDescriptor("ProductDescription.structure.ProductType", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 8:
-        return new CompiledConceptDescriptor("ProductDescription.structure.SimpleProduct", "ProductDescription.structure.ProductType", false, new String[]{"ProductDescription.structure.ProductType", "jetbrains.mps.lang.core.structure.INamedConcept", "com.mbeddr.core.modules.structure.IFunctionLike"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("ProductDescription.structure.SimpleProduct", "ProductDescription.structure.ProductType", false, new String[]{"ProductDescription.structure.ProductType", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 9:
         return new CompiledConceptDescriptor("ProductDescription.structure.TestCase", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       default:

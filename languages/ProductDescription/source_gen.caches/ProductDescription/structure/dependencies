@@ -99,10 +99,7 @@
     <classNode dependClassName="ProductDescription.structure.Attribute" />
     <classNode dependClassName="ProductDescription.structure.ProductTestSuite" />
     <classNode dependClassName="ProductDescription.structure.ProductType" />
-    <classNode dependClassName="com.mbeddr.core.expressions.structure.Type" />
-    <classNode dependClassName="com.mbeddr.core.modules.structure.IArgumentLike" />
-    <classNode dependClassName="com.mbeddr.core.modules.structure.IFunctionLike" />
-    <classNode dependClassName="com.mbeddr.core.statements.structure.StatementList" />
+    <classNode dependClassName="com.mbeddr.core.expressions.structure.Expression" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />

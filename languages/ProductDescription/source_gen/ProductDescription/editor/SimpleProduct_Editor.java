@@ -32,31 +32,39 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_iahs4n_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_iahs4n_a");
-    editorCell.addEditorCell(this.createProperty_iahs4n_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_iahs4n_b0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_iahs4n_c0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_iahs4n_d0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_iahs4n_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_iahs4n_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_c0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_iahs4n_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_e0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_iahs4n_f0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_iahs4n_g0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_iahs4n_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_iahs4n_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_iahs4n_c0");
+    editorCell.setCellId("Collection_iahs4n_d0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     }
-    editorCell.addEditorCell(this.createRefNodeList_iahs4n_a2a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_iahs4n_a3a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_iahs4n_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_iahs4n_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "simple product");
+    editorCell.setCellId("Constant_iahs4n_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_iahs4n_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes");
-    editorCell.setCellId("Constant_iahs4n_b0");
+    editorCell.setCellId("Constant_iahs4n_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
@@ -66,9 +74,9 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_iahs4n_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_iahs4n_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "calculate");
-    editorCell.setCellId("Constant_iahs4n_d0");
+    editorCell.setCellId("Constant_iahs4n_e0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
@@ -78,8 +86,8 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_iahs4n_a2a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new SimpleProduct_Editor.attributesListHandler_iahs4n_a2a(node, "attributes", editorContext);
+  private EditorCell createRefNodeList_iahs4n_a3a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new SimpleProduct_Editor.attributesListHandler_iahs4n_a3a(node, "attributes", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_attributes");
     {
@@ -92,16 +100,12 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_iahs4n_e0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_iahs4n_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rateCalculation");
     provider.setNoTargetText("<no rateCalculation>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -113,7 +117,7 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_iahs4n_f0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_iahs4n_g0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("testcase");
     provider.setNoTargetText("<no testcase>");
@@ -135,7 +139,7 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_iahs4n_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_iahs4n_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -153,8 +157,8 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class attributesListHandler_iahs4n_a2a extends RefNodeListHandler {
-    public attributesListHandler_iahs4n_a2a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class attributesListHandler_iahs4n_a3a extends RefNodeListHandler {
+    public attributesListHandler_iahs4n_a3a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

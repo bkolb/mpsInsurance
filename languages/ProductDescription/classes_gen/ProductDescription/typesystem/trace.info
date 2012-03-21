@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="ProductDescription.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="ProductDescription.typesystem.TypesystemDescriptor" />
+  <root nodeId="5283768241236649941">
+    <nodeInfo nodeId="5283768241236649991" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="23" startPosition="9" endLine="24" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5283768241236649991" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="24" startPosition="53" endLine="25" endPosition="199" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5283768241236649991" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="25" startPosition="199" endLine="26" endPosition="497" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="32" startPosition="46" endLine="33" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="37" startPosition="5" endLine="38" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="38" startPosition="117" endLine="39" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="16" startPosition="123" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_ProductTestSuite_InferenceRule#()V" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="5283768241236649991" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="22" startPosition="93" endLine="27" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5283768241236649958" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="21" startPosition="102" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="5283768241236649944" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="20" startPosition="116" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="19" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="17" startPosition="50" endLine="17" endPosition="50" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="32" startPosition="46" endLine="33" endPosition="59" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="17" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="16" startPosition="123" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="37" startPosition="5" endLine="39" endPosition="45" />
+    <scopeInfo nodeId="5283768241236649991" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="23" startPosition="9" endLine="26" endPosition="497" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="5283768241236649961" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="22" startPosition="93" endLine="27" endPosition="9" />
+    <scopeInfo nodeId="5283768241236649947" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="21" startPosition="102" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="5283768241236649958" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="21" startPosition="102" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="35" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="5283768241236649942" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="20" startPosition="116" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="5283768241236649944" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="20" startPosition="116" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="19" startPosition="0" endLine="31" endPosition="0" />
+    <unitInfo nodeId="5283768241236649941" fileName="typeof_ProductTestSuite_InferenceRule.java" startLine="16" startPosition="0" endLine="47" endPosition="0" unitName="ProductDescription.typesystem.typeof_ProductTestSuite_InferenceRule" />
+  </root>
   <root nodeId="6991865057876569369">
     <nodeInfo nodeId="6991865057876569378" fileName="typeof_AttributeRef_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6991865057876569378" fileName="typeof_AttributeRef_InferenceRule.java" startLine="20" startPosition="44" endLine="21" endPosition="195" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -95,38 +130,58 @@
     <unitInfo nodeId="8619408613058330178" fileName="checkTestSuiteConsistency_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="52" endPosition="0" unitName="ProductDescription.typesystem.checkTestSuiteConsistency_NonTypesystemRule" />
   </root>
   <root nodeId="8619408613058330253">
-    <nodeInfo nodeId="8619408613058330293" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="17" startPosition="35" endLine="18" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8619408613058330357" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="41" endLine="22" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8619408613058330392" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="162" endLine="27" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8619408613058330434" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="28" startPosition="9" endLine="29" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8619408613058330442" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="29" startPosition="104" endLine="30" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8619408613058330415" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="30" startPosition="58" endLine="31" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="13" startPosition="73" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="fixInconsistentTestSuite_QuickFix#()V" />
-    <nodeInfo nodeId="8619408613058330378" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="28" endLine="28" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="200" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="8619408613058330347" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="19" startPosition="107" endLine="24" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8619408613058330367" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="24" startPosition="9" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8619408613058330265" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="18" startPosition="185" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="16" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="14" startPosition="46" endLine="14" endPosition="46" />
-    <scopeInfo nodeId="8619408613058330356" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="41" endLine="22" endPosition="68" />
-    <scopeInfo nodeId="8619408613058330381" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="162" endLine="27" endPosition="109" />
-    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="13" startPosition="73" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="8619408613058330378" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="28" endLine="28" endPosition="9" />
-    <scopeInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="200" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="8619408613058330368" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="28" endLine="31" endPosition="165">
+    <nodeInfo nodeId="8619408613058330293" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="18" startPosition="35" endLine="19" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330357" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="22" startPosition="41" endLine="23" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8619408613058330392" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="27" startPosition="162" endLine="28" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330434" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="29" startPosition="9" endLine="30" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8619408613058330442" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="30" startPosition="104" endLine="31" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330415" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="31" startPosition="58" endLine="32" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5283768241236603120" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="37" startPosition="41" endLine="38" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5283768241236603164" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="43" startPosition="39" endLine="44" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5283768241236603201" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="46" startPosition="11" endLine="47" endPosition="172" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="14" startPosition="73" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="fixInconsistentTestSuite_QuickFix#()V" />
+    <nodeInfo nodeId="8619408613058330378" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="28" endLine="29" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="200" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="5283768241236603118" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="36" startPosition="133" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="5283768241236603160" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="42" startPosition="176" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="8619408613058330347" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="107" endLine="25" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5283768241236603110" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="35" startPosition="174" endLine="40" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5283768241236603139" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="41" startPosition="23" endLine="46" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8619408613058330367" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="25" startPosition="9" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5283768241236603106" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="40" startPosition="9" endLine="48" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8619408613058330265" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="19" startPosition="185" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5283768241236571391" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="34" startPosition="5" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="17" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="15" startPosition="46" endLine="15" endPosition="46" />
+    <scopeInfo nodeId="8619408613058330356" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="22" startPosition="41" endLine="23" endPosition="68" />
+    <scopeInfo nodeId="8619408613058330381" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="27" startPosition="162" endLine="28" endPosition="109" />
+    <scopeInfo nodeId="5283768241236603119" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="37" startPosition="41" endLine="38" endPosition="73" />
+    <scopeInfo nodeId="5283768241236603161" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="43" startPosition="39" endLine="44" endPosition="146" />
+    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="14" startPosition="73" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="8619408613058330378" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="28" endLine="29" endPosition="9" />
+    <scopeInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="200" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="5283768241236603118" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="36" startPosition="133" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="5283768241236603160" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="42" startPosition="176" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="8619408613058330368" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="26" startPosition="28" endLine="32" endPosition="165">
       <varInfo nodeId="8619408613058330435" varName="ref" />
     </scopeInfo>
-    <scopeInfo nodeId="8619408613058330268" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="19" startPosition="107" endLine="32" endPosition="7">
+    <scopeInfo nodeId="5283768241236603107" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="41" startPosition="23" endLine="47" endPosition="172" />
+    <scopeInfo nodeId="8619408613058330268" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="107" endLine="33" endPosition="7">
       <varInfo nodeId="8619408613058330348" varName="attrRef" />
     </scopeInfo>
-    <scopeInfo nodeId="8619408613058330265" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="18" startPosition="185" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="8619408613058330255" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="17" startPosition="35" endLine="33" endPosition="5">
+    <scopeInfo nodeId="5283768241236571394" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="35" startPosition="174" endLine="48" endPosition="7">
+      <varInfo nodeId="5283768241236603111" varName="pa" />
+    </scopeInfo>
+    <scopeInfo nodeId="8619408613058330265" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="19" startPosition="185" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="5283768241236571391" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="34" startPosition="5" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="8619408613058330255" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="18" startPosition="35" endLine="49" endPosition="5">
       <varInfo nodeId="8619408613058330294" varName="product" />
     </scopeInfo>
-    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="16" startPosition="0" endLine="35" endPosition="0" />
-    <unitInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="20" startPosition="177" endLine="24" endPosition="7" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix$1" />
-    <unitInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="13" startPosition="0" endLine="36" endPosition="0" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix" />
+    <scopeInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="17" startPosition="0" endLine="51" endPosition="0" />
+    <unitInfo nodeId="8619408613058330355" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="21" startPosition="177" endLine="25" endPosition="7" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix$1" />
+    <unitInfo nodeId="5283768241236603118" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="36" startPosition="110" endLine="40" endPosition="7" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix$2" />
+    <unitInfo nodeId="5283768241236603160" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="42" startPosition="157" endLine="46" endPosition="9" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix$3" />
+    <unitInfo nodeId="8619408613058330253" fileName="fixInconsistentTestSuite_QuickFix.java" startLine="14" startPosition="0" endLine="52" endPosition="0" unitName="ProductDescription.typesystem.fixInconsistentTestSuite_QuickFix" />
   </root>
 </debugInfo>
 

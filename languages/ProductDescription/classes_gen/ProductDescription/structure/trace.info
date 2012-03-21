@@ -472,155 +472,116 @@
     <unitInfo nodeId="6991865057876515372" fileName="ProductReference.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="ProductDescription.structure.ProductReference" />
   </root>
   <root nodeId="6991865057876521070">
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="17" startPosition="88" endLine="18" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="18" startPosition="84" endLine="19" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="19" startPosition="43" endLine="20" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="20" startPosition="68" endLine="21" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="21" startPosition="45" endLine="22" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="22" startPosition="64" endLine="23" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RESOLVE_INFO" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="23" startPosition="58" endLine="24" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RATE_CALCULATION" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="24" startPosition="66" endLine="25" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TESTCASE" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="25" startPosition="51" endLine="26" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TYPE" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="26" startPosition="43" endLine="27" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ATTRIBUTES" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="27" startPosition="55" endLine="28" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="28" startPosition="66" endLine="29" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ARGUMENTS" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="31" startPosition="36" endLine="32" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="35" startPosition="27" endLine="36" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="39" startPosition="37" endLine="40" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="43" startPosition="39" endLine="44" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="47" startPosition="49" endLine="48" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="51" startPosition="28" endLine="52" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="55" startPosition="38" endLine="56" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="59" startPosition="37" endLine="60" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="63" startPosition="47" endLine="64" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="67" startPosition="34" endLine="68" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="71" startPosition="44" endLine="72" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="75" startPosition="45" endLine="76" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="79" startPosition="54" endLine="80" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="83" startPosition="41" endLine="84" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="87" startPosition="50" endLine="88" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="91" startPosition="25" endLine="92" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="95" startPosition="34" endLine="96" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="99" startPosition="37" endLine="100" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="103" startPosition="45" endLine="104" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="107" startPosition="44" endLine="108" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="111" startPosition="45" endLine="112" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="115" startPosition="64" endLine="116" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="119" startPosition="41" endLine="120" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="123" startPosition="83" endLine="124" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="127" startPosition="82" endLine="128" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="131" startPosition="84" endLine="132" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="135" startPosition="137" endLine="136" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="139" startPosition="36" endLine="140" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="143" startPosition="48" endLine="144" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="147" startPosition="47" endLine="148" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="151" startPosition="48" endLine="152" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="155" startPosition="71" endLine="156" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="159" startPosition="68" endLine="160" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="163" startPosition="54" endLine="164" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="30" startPosition="0" endLine="33" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleProduct#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="66" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getResolveInfo#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="70" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setResolveInfo#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRateCalculation#()Ljetbrains/mps/smodel/INodeAdapter;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="78" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRateCalculation#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTestcase#()Ljetbrains/mps/smodel/INodeAdapter;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="86" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setTestcase#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/smodel/INodeAdapter;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="94" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setType#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="98" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAttributesesCount#()I" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="102" startPosition="0" endLine="106" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="attributeses#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="106" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAttributeses#()Ljava/util/List;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="110" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addAttributes#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="114" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertAttributes#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="118" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="122" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="126" startPosition="0" endLine="130" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="130" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="134" startPosition="0" endLine="138" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="138" startPosition="0" endLine="142" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getArgumentsesCount#()I" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="142" startPosition="0" endLine="146" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="argumentses#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="146" startPosition="0" endLine="150" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getArgumentses#()Ljava/util/List;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="150" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addArguments#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="154" startPosition="0" endLine="158" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertArguments#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="158" startPosition="0" endLine="162" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LProductDescription/structure/SimpleProduct;" />
-    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="162" startPosition="0" endLine="166" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LProductDescription/structure/SimpleProduct;" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="31" startPosition="36" endLine="32" endPosition="16" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="35" startPosition="27" endLine="36" endPosition="48" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="39" startPosition="37" endLine="40" endPosition="48" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="43" startPosition="39" endLine="44" endPosition="61" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="47" startPosition="49" endLine="48" endPosition="61" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="51" startPosition="28" endLine="52" endPosition="49" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="55" startPosition="38" endLine="56" endPosition="49" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="59" startPosition="37" endLine="60" endPosition="59" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="63" startPosition="47" endLine="64" endPosition="59" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="67" startPosition="34" endLine="68" endPosition="56" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="71" startPosition="44" endLine="72" endPosition="56" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="75" startPosition="45" endLine="76" endPosition="94" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="79" startPosition="54" endLine="80" endPosition="57" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="83" startPosition="41" endLine="84" endPosition="92" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="87" startPosition="50" endLine="88" endPosition="49" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="91" startPosition="25" endLine="92" endPosition="64" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="95" startPosition="34" endLine="96" endPosition="45" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="99" startPosition="37" endLine="100" endPosition="56" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="103" startPosition="45" endLine="104" endPosition="68" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="107" startPosition="44" endLine="108" endPosition="71" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="111" startPosition="45" endLine="112" endPosition="50" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="115" startPosition="64" endLine="116" endPosition="59" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="119" startPosition="41" endLine="120" endPosition="62" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="123" startPosition="83" endLine="124" endPosition="108" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="127" startPosition="82" endLine="128" endPosition="111" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="131" startPosition="84" endLine="132" endPosition="56" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="135" startPosition="137" endLine="136" endPosition="65" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="139" startPosition="36" endLine="140" endPosition="55" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="143" startPosition="48" endLine="144" endPosition="71" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="147" startPosition="47" endLine="148" endPosition="74" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="151" startPosition="48" endLine="152" endPosition="49" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="155" startPosition="71" endLine="156" endPosition="58" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="159" startPosition="68" endLine="160" endPosition="168" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="163" startPosition="54" endLine="164" endPosition="48" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="30" startPosition="0" endLine="33" endPosition="3" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="94" startPosition="0" endLine="98" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="106" startPosition="0" endLine="110" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="110" startPosition="0" endLine="114" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="114" startPosition="0" endLine="118" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="118" startPosition="0" endLine="122" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="122" startPosition="0" endLine="126" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="126" startPosition="0" endLine="130" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="130" startPosition="0" endLine="134" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="134" startPosition="0" endLine="138" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="138" startPosition="0" endLine="142" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="142" startPosition="0" endLine="146" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="146" startPosition="0" endLine="150" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="150" startPosition="0" endLine="154" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="154" startPosition="0" endLine="158" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="158" startPosition="0" endLine="162" endPosition="0" />
-    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="162" startPosition="0" endLine="166" endPosition="0" />
-    <unitInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="17" startPosition="0" endLine="167" endPosition="0" unitName="ProductDescription.structure.SimpleProduct" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="14" startPosition="73" endLine="15" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="15" startPosition="84" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="17" startPosition="68" endLine="18" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="18" startPosition="45" endLine="19" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="19" startPosition="64" endLine="20" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RATE_CALCULATION" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="20" startPosition="66" endLine="21" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TESTCASE" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="21" startPosition="51" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ATTRIBUTES" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="22" startPosition="55" endLine="23" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="25" startPosition="36" endLine="26" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="29" startPosition="27" endLine="30" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="33" startPosition="37" endLine="34" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="37" startPosition="39" endLine="38" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="41" startPosition="49" endLine="42" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="45" startPosition="28" endLine="46" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="49" startPosition="38" endLine="50" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="53" startPosition="37" endLine="54" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="57" startPosition="47" endLine="58" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="61" startPosition="42" endLine="62" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="65" startPosition="51" endLine="66" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="69" startPosition="41" endLine="70" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="73" startPosition="50" endLine="74" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="77" startPosition="37" endLine="78" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="81" startPosition="45" endLine="82" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="85" startPosition="44" endLine="86" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="89" startPosition="45" endLine="90" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="93" startPosition="64" endLine="94" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="97" startPosition="41" endLine="98" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="101" startPosition="83" endLine="102" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="105" startPosition="82" endLine="106" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="109" startPosition="84" endLine="110" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="113" startPosition="137" endLine="114" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="117" startPosition="68" endLine="118" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="121" startPosition="54" endLine="122" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="24" startPosition="0" endLine="27" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleProduct#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="52" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="60" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRateCalculation#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="64" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRateCalculation#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="68" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTestcase#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="72" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setTestcase#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="76" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAttributesesCount#()I" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="80" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="attributeses#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="84" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAttributeses#()Ljava/util/List;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="88" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addAttributes#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="92" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertAttributes#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="96" startPosition="0" endLine="100" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="100" startPosition="0" endLine="104" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="104" startPosition="0" endLine="108" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="108" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="112" startPosition="0" endLine="116" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="116" startPosition="0" endLine="120" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LProductDescription/structure/SimpleProduct;" />
+    <nodeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="120" startPosition="0" endLine="124" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LProductDescription/structure/SimpleProduct;" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="25" startPosition="36" endLine="26" endPosition="16" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="29" startPosition="27" endLine="30" endPosition="48" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="33" startPosition="37" endLine="34" endPosition="48" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="37" startPosition="39" endLine="38" endPosition="61" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="41" startPosition="49" endLine="42" endPosition="61" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="45" startPosition="28" endLine="46" endPosition="49" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="49" startPosition="38" endLine="50" endPosition="49" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="53" startPosition="37" endLine="54" endPosition="59" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="57" startPosition="47" endLine="58" endPosition="59" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="61" startPosition="42" endLine="62" endPosition="88" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="65" startPosition="51" endLine="66" endPosition="57" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="69" startPosition="41" endLine="70" endPosition="92" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="73" startPosition="50" endLine="74" endPosition="49" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="77" startPosition="37" endLine="78" endPosition="56" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="81" startPosition="45" endLine="82" endPosition="68" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="85" startPosition="44" endLine="86" endPosition="71" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="89" startPosition="45" endLine="90" endPosition="50" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="93" startPosition="64" endLine="94" endPosition="59" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="97" startPosition="41" endLine="98" endPosition="62" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="101" startPosition="83" endLine="102" endPosition="108" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="105" startPosition="82" endLine="106" endPosition="111" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="109" startPosition="84" endLine="110" endPosition="56" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="113" startPosition="137" endLine="114" endPosition="65" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="117" startPosition="68" endLine="118" endPosition="168" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="121" startPosition="54" endLine="122" endPosition="48" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="100" startPosition="0" endLine="104" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="104" startPosition="0" endLine="108" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="108" startPosition="0" endLine="112" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="112" startPosition="0" endLine="116" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="116" startPosition="0" endLine="120" endPosition="0" />
+    <scopeInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="120" startPosition="0" endLine="124" endPosition="0" />
+    <unitInfo nodeId="6991865057876521070" fileName="SimpleProduct.java" startLine="14" startPosition="0" endLine="125" endPosition="0" unitName="ProductDescription.structure.SimpleProduct" />
   </root>
   <root nodeId="6991865057876540989">
     <nodeInfo nodeId="6991865057876540989" fileName="Attribute.java" startLine="15" startPosition="69" endLine="16" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
