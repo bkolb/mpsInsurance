@@ -48,7 +48,11 @@ public class ProductTestSuiteTableModel implements TableModel {
       if (column < attrCount()) {
         return new DefaultChildSubstituteInfo(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(product, "testcase", true), "cases", true)).getElement(row - 1), getValueAt(row, column), SLinkOperations.findLinkDeclaration("ProductDescription.structure.TestCase", "inputValues"), editorCtx);
       } else {
-        return new DefaultChildSubstituteInfo(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(product, "testcase", true), "cases", true)).getElement(row - 1), getValueAt(row, column), SLinkOperations.findLinkDeclaration("ProductDescription.structure.TestCase", "expectedResult"), editorCtx);
+        if (column == attrCount()) {
+          return new DefaultChildSubstituteInfo(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(product, "testcase", true), "cases", true)).getElement(row - 1), getValueAt(row, column), SLinkOperations.findLinkDeclaration("ProductDescription.structure.TestCase", "expectedResult"), editorCtx);
+        } else {
+          return new DefaultChildSubstituteInfo(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(product, "testcase", true), "cases", true)).getElement(row - 1), getValueAt(row, column), SLinkOperations.findLinkDeclaration("ProductDescription.structure.TestCase", "actualResult"), editorCtx);
+        }
       }
     }
   }
@@ -67,8 +71,13 @@ public class ProductTestSuiteTableModel implements TableModel {
       SNode testcase = ListSequence.fromList(cases()).getElement(row - 1);
       if (column < ListSequence.fromList(SLinkOperations.getTargets(testcase, "inputValues", true)).count()) {
         return ListSequence.fromList(SLinkOperations.getTargets(testcase, "inputValues", true)).getElement(column);
+      } else {
+        if (column == (int) ListSequence.fromList(SLinkOperations.getTargets(testcase, "inputValues", true)).count()) {
+          return SLinkOperations.getTarget(testcase, "expectedResult", true);
+        } else {
+          return SLinkOperations.getTarget(testcase, "actualResult", true);
+        }
       }
-      return SLinkOperations.getTarget(testcase, "expectedResult", true);
     }
   }
 
@@ -83,7 +92,7 @@ public class ProductTestSuiteTableModel implements TableModel {
   }
 
   public int getColumnCount() {
-    return attrCount() + 1;
+    return attrCount() + 2;
   }
 
   public int attrCount() {

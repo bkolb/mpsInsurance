@@ -9,8 +9,8 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_ProductTestSuite_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -21,9 +21,9 @@ public class typeof_ProductTestSuite_InferenceRule extends AbstractInferenceRule
     for (SNode attrRef : ListSequence.fromList(SLinkOperations.getTargets(pts, "attributes", true))) {
       for (SNode c : ListSequence.fromList(SLinkOperations.getTargets(pts, "cases", true))) {
         {
-          SNode _nodeToCheck_1029348928467 = attrRef;
-          EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "5283768241236649991", 0, null);
-          typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "5283768241236649983", true), (SNode) typeCheckingContext.typeOf(ListSequence.fromList(SLinkOperations.getTargets(c, "inputValues", true)).getElement(SNodeOperations.getIndexInParent(attrRef)), "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "5283768241236649996", true), _info_12389875345);
+          SNode _nodeToCheck_1029348928467 = ListSequence.fromList(SLinkOperations.getTargets(c, "inputValues", true)).getElement(SNodeOperations.getIndexInParent(attrRef));
+          EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "8331426562766079820", 0, null);
+          typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "8331426562766079808", true), (SNode) typeCheckingContext.typeOf(attrRef, "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "8331426562766079825", true), false, true, _info_12389875345);
         }
       }
     }

@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"ProductDescription.structure.Attribute", "ProductDescription.structure.AttributeRef", "ProductDescription.structure.ContractType", "ProductDescription.structure.Date", "ProductDescription.structure.ProductDescription", "ProductDescription.structure.ProductReference", "ProductDescription.structure.ProductTestSuite", "ProductDescription.structure.ProductType", "ProductDescription.structure.SimpleProduct", "ProductDescription.structure.TestCase"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"ProductDescription.structure.Attribute", "ProductDescription.structure.AttributeRef", "ProductDescription.structure.ContractType", "ProductDescription.structure.Date", "ProductDescription.structure.ProductDescription", "ProductDescription.structure.ProductReference", "ProductDescription.structure.ProductTestSuite", "ProductDescription.structure.ProductType", "ProductDescription.structure.SimpleProduct", "ProductDescription.structure.StringWrapper", "ProductDescription.structure.TestCase"};
 
   public StructureAspectDescriptor() {
   }
@@ -34,6 +34,8 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 8:
         return new CompiledConceptDescriptor("ProductDescription.structure.SimpleProduct", "ProductDescription.structure.ProductType", false, new String[]{"ProductDescription.structure.ProductType", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 9:
+        return new CompiledConceptDescriptor("ProductDescription.structure.StringWrapper", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"value"}, new String[]{});
+      case 10:
         return new CompiledConceptDescriptor("ProductDescription.structure.TestCase", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);

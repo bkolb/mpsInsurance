@@ -11,19 +11,25 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import ProductDescription.behavior.RateCalculator;
+import ProductDescription.typesystem.RateCalculator;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class RunTest extends EditorCellKeyMap {
   public RunTest() {
     this.setApplicableToEveryModel(false);
     EditorCellKeyMapAction action;
     action = new RunTest.RunTest_Action0();
-    this.putAction("ctrl+alt", "t", action);
+    this.putAction("ctrl+alt", "VK_T", action);
   }
 
   public static class RunTest_Action0 extends EditorCellKeyMapAction {
     public RunTest_Action0() {
       this.setShownInPopupMenu(true);
+    }
+
+    public String getDescriptionText() {
+      return "Reevaluate Test Cases";
     }
 
     public boolean isMenuAlwaysShown() {
@@ -52,12 +58,13 @@ public class RunTest extends EditorCellKeyMap {
 
     private void execute_internal(final KeyEvent keyEvent, final EditorContext editorContext, final SNode node, final List<SNode> selectedNodes) {
       for (SNode tc : ListSequence.fromList(SLinkOperations.getTargets(node, "cases", true))) {
-        new RateCalculator(tc);
+        int result = new RateCalculator(tc).calculate(SLinkOperations.getTarget(SNodeOperations.getAncestor(node, "ProductDescription.structure.SimpleProduct", true, false), "rateCalculation", true));
+        SPropertyOperations.set(SLinkOperations.getTarget(tc, "actualResult", true), "value", result + "");
       }
     }
 
     public String getKeyStroke() {
-      return "ctrl alt t";
+      return "ctrl alt T";
     }
   }
 }

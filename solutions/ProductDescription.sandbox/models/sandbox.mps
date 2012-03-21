@@ -8,7 +8,6 @@
   <language namespace="6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)" />
   <import index="xikn" modelUID="r:43cd04c5-7a74-4b48-99a0-d77f000c25b5(ProductDescription.structure)" version="-1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="0" implicit="yes" />
   <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="10" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="1" implicit="yes" />
   <roots>
@@ -138,138 +137,110 @@
   <root id="6991865057876577192">
     <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="6991865057876577195">
       <property name="name" nameId="tpck.1169194664001" value="groesse" />
-      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="5283768241236650917" />
+      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int16tType" typeId="mj1l.8463282783691618435" id="8331426562766078959" />
     </node>
     <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="8619408613058334731">
-      <property name="name" nameId="tpck.1169194664001" value="dummy" />
-      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="8619408613058334735" />
+      <property name="name" nameId="tpck.1169194664001" value="alter" />
+      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int16tType" typeId="mj1l.8463282783691618435" id="8331426562766078958" />
     </node>
-    <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="5283768241236568552">
-      <property name="name" nameId="tpck.1169194664001" value="my" />
-      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="5283768241236568557" />
-    </node>
-    <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="5283768241236568656">
-      <property name="name" nameId="tpck.1169194664001" value="xxy" />
-      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="5283768241236568661" />
-    </node>
-    <node role="rateCalculation" roleId="xikn.6991865057876534648" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="6991865057876577193">
-      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5283768241236672139">
-        <node role="expr" roleId="c4fa.7254843406768833939" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236672140">
-          <property name="value" nameId="mj1l.8860443239512128104" value="17" />
+    <node role="rateCalculation" roleId="xikn.6991865057876534648" type="k146.DecTab" typeId="k146.6209595569797584861" id="8331426562765951808">
+      <node role="xExpr" roleId="k146.6209595569797584862" type="mj1l.LessExpression" typeId="mj1l.8860443239512147449" id="8331426562765951846">
+        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765951847">
+          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="groesse" />
+        </node>
+        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951848">
+          <property name="value" nameId="mj1l.8860443239512128104" value="150" />
         </node>
       </node>
-      <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="6991865057876577224">
-        <node role="expr" roleId="c4fa.7254843406768833939" type="k146.DecTab" typeId="k146.6209595569797584861" id="6991865057876577225">
-          <node role="xExpr" roleId="k146.6209595569797584862" type="mj1l.GreaterExpression" typeId="mj1l.8860443239512147445" id="5283768241236672083">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236672086">
-              <property name="value" nameId="mj1l.8860443239512128104" value="100" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236672080">
-              <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="dummy" />
-            </node>
-          </node>
-          <node role="xExpr" roleId="k146.6209595569797584862" type="mj1l.LessEqualsExpression" typeId="mj1l.8860443239512147451" id="5283768241236672090">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236672093">
-              <property name="value" nameId="mj1l.8860443239512128104" value="100" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236672087">
-              <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="dummy" />
-            </node>
-          </node>
-          <node role="yExpr" roleId="k146.6209595569797584863" type="mj1l.OrExpression" typeId="mj1l.8399455261460717642" id="6991865057876577243">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.FalseLiteral" typeId="mj1l.8860443239512128099" id="6991865057876577246" />
-            <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="6991865057876577240" />
-          </node>
-          <node role="yExpr" roleId="k146.6209595569797584863" type="mj1l.AndExpression" typeId="mj1l.8399455261460717640" id="6991865057876577250">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.FalseLiteral" typeId="mj1l.8860443239512128099" id="6991865057876577253" />
-            <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="6991865057876577247" />
-          </node>
-          <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.BitwiseXORExpression" typeId="mj1l.9013371069685926132" id="6991865057876577254">
-            <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6991865057876577257">
-              <property name="value" nameId="mj1l.8860443239512128104" value="1" />
-            </node>
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6991865057876577258">
-              <property name="value" nameId="mj1l.8860443239512128104" value="2" />
-            </node>
-          </node>
-          <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="6991865057876577270">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6991865057876577273">
-              <property name="value" nameId="mj1l.8860443239512128104" value="19" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236649931">
-              <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="dummy" />
-            </node>
-          </node>
-          <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="6991865057876577262">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6991865057876577265">
-              <property name="value" nameId="mj1l.8860443239512128104" value="4" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6991865057876577259">
-              <property name="value" nameId="mj1l.8860443239512128104" value="3" />
-            </node>
-          </node>
-          <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="5283768241236649937">
-            <node role="right" roleId="mj1l.8860443239512128065" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236649940">
-              <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="5283768241236568552" resolveInfo="my" />
-            </node>
-            <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236649934">
-              <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="dummy" />
-            </node>
-          </node>
-          <node role="def" roleId="k146.4143042878078342166" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="6991865057876577237">
-            <property name="value" nameId="mj1l.8860443239512128104" value="0" />
-          </node>
-          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int64tType" typeId="mj1l.8463282783691618445" id="6991865057876577236" />
+      <node role="xExpr" roleId="k146.6209595569797584862" type="mj1l.GreaterEqualsExpression" typeId="mj1l.8860443239512147447" id="8331426562765951852">
+        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951855">
+          <property name="value" nameId="mj1l.8860443239512128104" value="150" />
+        </node>
+        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765951849">
+          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="groesse" />
         </node>
       </node>
+      <node role="yExpr" roleId="k146.6209595569797584863" type="mj1l.LessExpression" typeId="mj1l.8860443239512147449" id="8331426562765951831">
+        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951834">
+          <property name="value" nameId="mj1l.8860443239512128104" value="18" />
+        </node>
+        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765951828">
+          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="alter" />
+        </node>
+      </node>
+      <node role="yExpr" roleId="k146.6209595569797584863" type="mj1l.GreaterEqualsExpression" typeId="mj1l.8860443239512147447" id="8331426562765951842">
+        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951845">
+          <property name="value" nameId="mj1l.8860443239512128104" value="18" />
+        </node>
+        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765951839">
+          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="alter" />
+        </node>
+      </node>
+      <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951856">
+        <property name="value" nameId="mj1l.8860443239512128104" value="10" />
+      </node>
+      <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951857">
+        <property name="value" nameId="mj1l.8860443239512128104" value="20" />
+      </node>
+      <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951858">
+        <property name="value" nameId="mj1l.8860443239512128104" value="30" />
+      </node>
+      <node role="cExpr" roleId="k146.6209595569797584864" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951859">
+        <property name="value" nameId="mj1l.8860443239512128104" value="40" />
+      </node>
+      <node role="def" roleId="k146.4143042878078342166" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765951820">
+        <property name="value" nameId="mj1l.8860443239512128104" value="0" />
+      </node>
+      <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="8331426562765951819" />
     </node>
-    <node role="type" type="mj1l.Int64tType" typeId="mj1l.8463282783691618445" id="6991865057876577194" />
-    <node role="testcase" roleId="xikn.1850134002004981838" type="xikn.ProductTestSuite" typeId="xikn.1850134002004981839" id="5283768241236568535">
-      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="5283768241236568538">
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568542">
+    <node role="testcase" roleId="xikn.1850134002004981838" type="xikn.ProductTestSuite" typeId="xikn.1850134002004981839" id="8331426562765911957">
+      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8331426562765912591">
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765912598">
           <property name="value" nameId="mj1l.8860443239512128104" value="100" />
         </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568543">
-          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765912599">
+          <property name="value" nameId="mj1l.8860443239512128104" value="2" />
         </node>
-        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568544">
-          <property name="value" nameId="mj1l.8860443239512128104" value="30" />
-        </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568558">
-          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
-        </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568662">
+        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765912602">
           <property name="value" nameId="mj1l.8860443239512128104" value="10" />
         </node>
-      </node>
-      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="5283768241236568545">
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568549">
-          <property name="value" nameId="mj1l.8860443239512128104" value="000" />
+        <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562765912597">
+          <property name="value" nameId="xikn.8331426562765903011" value="10" />
         </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568551">
+      </node>
+      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8331426562766077922">
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766078955">
+          <property name="value" nameId="mj1l.8860443239512128104" value="200" />
+        </node>
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766078956">
           <property name="value" nameId="mj1l.8860443239512128104" value="30" />
         </node>
-        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568550">
+        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766078957">
           <property name="value" nameId="mj1l.8860443239512128104" value="40" />
         </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568559">
-          <property name="value" nameId="mj1l.8860443239512128104" value="30" />
-        </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5283768241236568663">
-          <property name="value" nameId="mj1l.8860443239512128104" value="34" />
+        <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766077926">
+          <property name="value" nameId="xikn.8331426562765903011" value="40" />
         </node>
       </node>
-      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236568536">
+      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8331426562766080727">
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766080732">
+          <property name="value" nameId="mj1l.8860443239512128104" value="150" />
+        </node>
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766080733">
+          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
+        </node>
+        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766080734">
+          <property name="value" nameId="mj1l.8860443239512128104" value="40" />
+        </node>
+        <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766080731">
+          <property name="value" nameId="xikn.8331426562765903011" value="40" />
+        </node>
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765911958">
         <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="groesse" />
       </node>
-      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236568537">
-        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="dummy" />
-      </node>
-      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236568556">
-        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="5283768241236568552" resolveInfo="my" />
-      </node>
-      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="5283768241236568660">
-        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="5283768241236568656" resolveInfo="xxy" />
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765911959">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="alter" />
       </node>
     </node>
   </root>

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"ProductDescription.structure.Attribute", "ProductDescription.structure.AttributeRef", "ProductDescription.structure.ContractType", "ProductDescription.structure.Date", "ProductDescription.structure.ProductDescription", "ProductDescription.structure.ProductReference", "ProductDescription.structure.ProductTestSuite", "ProductDescription.structure.SimpleProduct", "ProductDescription.structure.TestCase"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"ProductDescription.structure.Attribute", "ProductDescription.structure.AttributeRef", "ProductDescription.structure.ContractType", "ProductDescription.structure.Date", "ProductDescription.structure.ProductDescription", "ProductDescription.structure.ProductReference", "ProductDescription.structure.ProductTestSuite", "ProductDescription.structure.SimpleProduct", "ProductDescription.structure.StringWrapper", "ProductDescription.structure.TestCase"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -30,8 +30,10 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new AttributeRef_BehaviorDescriptor();
       case 6:
         return new ProductTestSuite_BehaviorDescriptor();
-      case 8:
+      case 9:
         return new TestCase_BehaviorDescriptor();
+      case 8:
+        return new StringWrapper_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

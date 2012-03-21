@@ -14,6 +14,7 @@ import jetbrains.mps.project.GlobalScope;
 public class TestCase extends BaseConcept {
   public static final String concept = "ProductDescription.structure.TestCase";
   public static final String EXPECTED_RESULT = "expectedResult";
+  public static final String ACTUAL_RESULT = "actualResult";
   public static final String INPUT_VALUES = "inputValues";
 
   public TestCase(SNode node) {
@@ -26,6 +27,14 @@ public class TestCase extends BaseConcept {
 
   public void setExpectedResult(Expression node) {
     super.setChild(TestCase.EXPECTED_RESULT, node);
+  }
+
+  public StringWrapper getActualResult() {
+    return (StringWrapper) this.getChild(StringWrapper.class, TestCase.ACTUAL_RESULT);
+  }
+
+  public void setActualResult(StringWrapper node) {
+    super.setChild(TestCase.ACTUAL_RESULT, node);
   }
 
   public int getInputValuesesCount() {

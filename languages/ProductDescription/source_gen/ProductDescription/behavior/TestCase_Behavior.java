@@ -6,6 +6,8 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class TestCase_Behavior {
   public static void init(SNode thisNode) {
@@ -16,5 +18,13 @@ public class TestCase_Behavior {
       ListSequence.fromList(SLinkOperations.getTargets(thisNode, "inputValues", true)).addElement(SConceptOperations.createNewNode("com.mbeddr.core.expressions.structure.Expression", null));
     }
     SLinkOperations.setNewChild(thisNode, "expectedResult", "com.mbeddr.core.expressions.structure.Expression");
+    SLinkOperations.setNewChild(thisNode, "actualResult", "ProductDescription.structure.StringWrapper");
+  }
+
+  public static boolean call_isOK_8331426562765930348(SNode thisNode) {
+    if (SLinkOperations.getTarget(thisNode, "expectedResult", true) != null && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "expectedResult", true), "com.mbeddr.core.expressions.structure.NumberLiteral")) {
+      return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "expectedResult", true), "com.mbeddr.core.expressions.structure.NumberLiteral"), "value").equals(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "actualResult", true), "value"));
+    }
+    return false;
   }
 }
