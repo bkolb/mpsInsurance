@@ -22,6 +22,18 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
+  <dependency className="ProductDescription.structure.CompositeProductType" file="CompositeProductType.java">
+    <classNode dependClassName="ProductDescription.structure.ProductType" />
+    <classNode dependClassName="ProductDescription.structure.ProductTypeRef" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
   <dependency className="ProductDescription.structure.ContractType" file="ContractType.java">
     <classNode dependClassName="ProductDescription.structure.ProductReference" />
     <classNode dependClassName="java.lang.String" />
@@ -84,10 +96,12 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="ProductDescription.structure.ProductType" file="ProductType.java">
+    <classNode dependClassName="ProductDescription.structure.Attribute" />
+    <classNode dependClassName="ProductDescription.structure.ProductTestSuite" />
+    <classNode dependClassName="com.mbeddr.core.expressions.structure.Expression" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -95,14 +109,30 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
-  <dependency className="ProductDescription.structure.SimpleProduct" file="SimpleProduct.java">
-    <classNode dependClassName="ProductDescription.structure.Attribute" />
-    <classNode dependClassName="ProductDescription.structure.ProductTestSuite" />
+  <dependency className="ProductDescription.structure.ProductTypeRef" file="ProductTypeRef.java">
     <classNode dependClassName="ProductDescription.structure.ProductType" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="ProductDescription.structure.ResultExpression" file="ResultExpression.java">
     <classNode dependClassName="com.mbeddr.core.expressions.structure.Expression" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="ProductDescription.structure.SimpleProductType" file="SimpleProductType.java">
+    <classNode dependClassName="ProductDescription.structure.ProductType" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />

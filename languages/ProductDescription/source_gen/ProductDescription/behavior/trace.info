@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="ProductTypeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.ProductTypeRef_BehaviorDescriptor" />
+  <unitInfo fileName="ResultExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.ResultExpression_BehaviorDescriptor" />
   <unitInfo fileName="StringWrapper_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.StringWrapper_BehaviorDescriptor" />
   <unitInfo fileName="TestCase_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.TestCase_BehaviorDescriptor" />
   <unitInfo fileName="ProductTestSuite_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.ProductTestSuite_BehaviorDescriptor" />
   <unitInfo fileName="AttributeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.AttributeRef_BehaviorDescriptor" />
-  <unitInfo fileName="SimpleProduct_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.SimpleProduct_BehaviorDescriptor" />
+  <unitInfo fileName="SimpleProductType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.SimpleProductType_BehaviorDescriptor" />
   <unitInfo fileName="ProductReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.ProductReference_BehaviorDescriptor" />
   <unitInfo fileName="Date_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ProductDescription.behavior.Date_BehaviorDescriptor" />
+  <unitInfo fileName="CompositeProductType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="ProductDescription.behavior.CompositeProductType_BehaviorDescriptor" />
   <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.Attribute_BehaviorDescriptor" />
-  <unitInfo fileName="ProductType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.ProductType_BehaviorDescriptor" />
   <unitInfo fileName="ContractType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.ContractType_BehaviorDescriptor" />
   <unitInfo fileName="ProductDescription_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.ProductDescription_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="42" endPosition="0" unitName="ProductDescription.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="ProductType_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="ProductDescription.behavior.ProductType_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="ProductDescription.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1850134002004986960">
     <nodeInfo nodeId="1850134002004986989" fileName="TestCase_Behavior.java" startLine="17" startPosition="42" endLine="18" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1850134002004987070" fileName="TestCase_Behavior.java" startLine="19" startPosition="5" endLine="20" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -38,11 +41,54 @@
     </scopeInfo>
     <unitInfo nodeId="1850134002004986960" fileName="TestCase_Behavior.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="ProductDescription.behavior.TestCase_Behavior" />
   </root>
+  <root nodeId="3975765255154820797">
+    <nodeInfo nodeId="3975765255154820800" fileName="CompositeProductType_Behavior.java" startLine="12" startPosition="43" endLine="13" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3975765255154863266" fileName="CompositeProductType_Behavior.java" startLine="16" startPosition="99" endLine="17" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3975765255154863292" fileName="CompositeProductType_Behavior.java" startLine="18" startPosition="109" endLine="19" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3975765255154863278" fileName="CompositeProductType_Behavior.java" startLine="17" startPosition="139" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3975765255154820797" fileName="CompositeProductType_Behavior.java" startLine="11" startPosition="44" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3975765255154820797" fileName="CompositeProductType_Behavior.java" startLine="15" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_allAttributes_3975765255154863205#(Ljetbrains/mps/smodel/SNode;Ljava/util/List;)V" />
+    <scopeInfo nodeId="3975765255154820799" fileName="CompositeProductType_Behavior.java" startLine="12" startPosition="43" endLine="13" endPosition="154" />
+    <scopeInfo nodeId="3975765255154863281" fileName="CompositeProductType_Behavior.java" startLine="18" startPosition="109" endLine="19" endPosition="117" />
+    <scopeInfo nodeId="3975765255154863278" fileName="CompositeProductType_Behavior.java" startLine="17" startPosition="139" endLine="20" endPosition="5" />
+    <scopeInfo nodeId="3975765255154820797" fileName="CompositeProductType_Behavior.java" startLine="11" startPosition="44" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="3975765255154863261" fileName="CompositeProductType_Behavior.java" startLine="16" startPosition="99" endLine="20" endPosition="5" />
+    <scopeInfo nodeId="3975765255154820797" fileName="CompositeProductType_Behavior.java" startLine="15" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="3975765255154863262" varName="attrs" />
+    </scopeInfo>
+    <unitInfo nodeId="3975765255154820797" fileName="CompositeProductType_Behavior.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="ProductDescription.behavior.CompositeProductType_Behavior" />
+  </root>
+  <root nodeId="3975765255154863202">
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="14" startPosition="35" endLine="15" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_3975765255154863205" />
+    <nodeInfo nodeId="3975765255154863212" fileName="ProductType_Behavior.java" startLine="20" startPosition="99" endLine="21" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="24" startPosition="96" endLine="25" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="25" startPosition="113" endLine="26" endPosition="196" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="29" startPosition="129" endLine="30" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_allAttributes_3975765255154863205#(Ljetbrains/mps/smodel/SNode;Ljava/util/List;)V" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_allAttributes_3975765255154863205#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljava/util/List;)V" />
+    <nodeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="23" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_allAttributes_3975765255154863205#(Ljetbrains/mps/smodel/SNode;Ljava/util/List;)V" />
+    <scopeInfo nodeId="3975765255154863204" fileName="ProductType_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
+    <scopeInfo nodeId="3975765255154863208" fileName="ProductType_Behavior.java" startLine="20" startPosition="99" endLine="21" endPosition="126" />
+    <scopeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="29" startPosition="129" endLine="30" endPosition="241" />
+    <scopeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="24" startPosition="96" endLine="26" endPosition="196" />
+    <scopeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="3975765255154863210" varName="attrs" />
+    </scopeInfo>
+    <scopeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="3975765255154863210" varName="attrs" />
+    </scopeInfo>
+    <scopeInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="23" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="3975765255154863210" varName="attrs" />
+    </scopeInfo>
+    <unitInfo nodeId="3975765255154863202" fileName="ProductType_Behavior.java" startLine="14" startPosition="0" endLine="33" endPosition="0" unitName="ProductDescription.behavior.ProductType_Behavior" />
+  </root>
   <root nodeId="6991865057876539266">
-    <nodeInfo nodeId="6991865057876539266" fileName="SimpleProduct_Behavior.java" startLine="7" startPosition="37" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="6991865057876539268" fileName="SimpleProduct_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="6991865057876539266" fileName="SimpleProduct_Behavior.java" startLine="7" startPosition="37" endLine="10" endPosition="0" />
-    <unitInfo nodeId="6991865057876539266" fileName="SimpleProduct_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="ProductDescription.behavior.SimpleProduct_Behavior" />
+    <nodeInfo nodeId="6991865057876539266" fileName="SimpleProductType_Behavior.java" startLine="7" startPosition="41" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="6991865057876539268" fileName="SimpleProductType_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="6991865057876539266" fileName="SimpleProductType_Behavior.java" startLine="7" startPosition="41" endLine="10" endPosition="0" />
+    <unitInfo nodeId="6991865057876539266" fileName="SimpleProductType_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="ProductDescription.behavior.SimpleProductType_Behavior" />
   </root>
 </debugInfo>
 

@@ -5,10 +5,15 @@ package ProductDescription.behavior;
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
+import java.util.List;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
 public abstract class ProductType_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
   public ProductType_BehaviorDescriptor() {
+  }
+
+  public void virtual_allAttributes_3975765255154863205(SNode thisNode, List<SNode> attrs) {
+    ProductType_Behavior.virtual_allAttributes_3975765255154863205(thisNode, attrs);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {

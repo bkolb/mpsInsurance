@@ -5,6 +5,9 @@ package ProductDescription.typesystem;
 import jetbrains.mps.errors.QuickFix_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.List;
+import java.util.ArrayList;
+import ProductDescription.behavior.ProductType_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
@@ -16,8 +19,11 @@ public class fixInconsistentTestSuite_QuickFix extends QuickFix_Runtime {
   }
 
   public void execute(SNode node) {
-    SNode product = SNodeOperations.cast(SNodeOperations.getParent(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0])), "ProductDescription.structure.SimpleProduct");
-    for (final SNode pa : ListSequence.fromList(SLinkOperations.getTargets(product, "attributes", true))) {
+    SNode product = SNodeOperations.cast(SNodeOperations.getParent(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0])), "ProductDescription.structure.ProductType");
+    List<SNode> attrs = new ArrayList<SNode>();
+    ProductType_Behavior.call_allAttributes_3975765255154863205(product, attrs);
+
+    for (final SNode pa : ListSequence.fromList(attrs)) {
       SNode attrRef = ListSequence.fromList(SLinkOperations.getTargets(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0]), "attributes", true)).findFirst(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return SLinkOperations.getTarget(it, "attr", false) == pa;
@@ -33,7 +39,7 @@ public class fixInconsistentTestSuite_QuickFix extends QuickFix_Runtime {
       }
     }
     for (final SNode attrRef : ListSequence.fromList(SLinkOperations.getTargets(((SNode) fixInconsistentTestSuite_QuickFix.this.getField("suite")[0]), "attributes", true))) {
-      SNode pa = ListSequence.fromList(SLinkOperations.getTargets(product, "attributes", true)).findFirst(new IWhereFilter<SNode>() {
+      SNode pa = ListSequence.fromList(attrs).findFirst(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return SLinkOperations.getTarget(attrRef, "attr", false) == it;
         }

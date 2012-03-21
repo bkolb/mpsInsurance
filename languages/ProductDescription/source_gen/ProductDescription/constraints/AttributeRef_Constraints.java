@@ -13,8 +13,12 @@ import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.List;
+import jetbrains.mps.smodel.SNode;
+import java.util.ArrayList;
+import ProductDescription.behavior.ProductType_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class AttributeRef_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer breakingNode_31jsbr_a0a1a0a0a1a0b0a1a0 = new SNodePointer("r:89e43441-0eca-4516-8961-73d762600492(ProductDescription.constraints)", "6991865057876561234");
@@ -38,7 +42,13 @@ public class AttributeRef_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return SLinkOperations.getTargets(SNodeOperations.getAncestor(_context.getEnclosingNode(), "ProductDescription.structure.SimpleProduct", true, false), "attributes", true);
+            if ((SNodeOperations.getAncestor(_context.getEnclosingNode(), "ProductDescription.structure.ProductTestSuite", true, false) != null)) {
+              List<SNode> attrs = new ArrayList<SNode>();
+              ProductType_Behavior.call_allAttributes_3975765255154863205(SNodeOperations.getAncestor(_context.getEnclosingNode(), "ProductDescription.structure.ProductType", false, false), attrs);
+              return attrs;
+            } else {
+              return SLinkOperations.getTargets(SNodeOperations.getAncestor(_context.getEnclosingNode(), "ProductDescription.structure.ProductType", true, false), "attributes", true);
+            }
           }
 
           @Override

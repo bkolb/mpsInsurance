@@ -7,9 +7,12 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
+import java.util.List;
+import java.util.ArrayList;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import ProductDescription.behavior.ProductType_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -21,7 +24,10 @@ public class checkTestSuiteConsistency_NonTypesystemRule extends AbstractNonType
   }
 
   public void applyRule(final SNode suite, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (ListSequence.fromList(SLinkOperations.getTargets(suite, "attributes", true)).count() != ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(SNodeOperations.getParent(suite), "ProductDescription.structure.SimpleProduct"), "attributes", true)).count()) {
+    List<SNode> attributes = new ArrayList<SNode>();
+    SNode pt = SNodeOperations.cast(SNodeOperations.getParent(suite), "ProductDescription.structure.ProductType");
+    ProductType_Behavior.call_allAttributes_3975765255154863205(pt, attributes);
+    if (ListSequence.fromList(SLinkOperations.getTargets(suite, "attributes", true)).count() != ListSequence.fromList(attributes).count()) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(suite, "inconsistent test suite structure", "r:a843dbff-e2d6-4d50-a0a3-752640797e15(ProductDescription.typesystem)", "8619408613058330248", null, errorTarget);

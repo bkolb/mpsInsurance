@@ -5,8 +5,8 @@ package ProductDescription.structure;
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.lang.core.structure.INamedConcept;
 import jetbrains.mps.smodel.SNode;
+import com.mbeddr.core.expressions.structure.Expression;
 import java.util.Iterator;
-import jetbrains.mps.lang.core.structure.Attribute;
 import java.util.List;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -18,6 +18,9 @@ public class ProductType extends BaseConcept implements INamedConcept {
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
+  public static final String RATE_CALCULATION = "rateCalculation";
+  public static final String TESTCASE = "testcase";
+  public static final String ATTRIBUTES = "attributes";
   public static final String SMODEL_ATTRIBUTE = "smodelAttribute";
 
   public ProductType(SNode node) {
@@ -56,23 +59,59 @@ public class ProductType extends BaseConcept implements INamedConcept {
     this.setProperty(ProductType.VIRTUAL_PACKAGE, value);
   }
 
+  public Expression getRateCalculation() {
+    return (Expression) this.getChild(Expression.class, ProductType.RATE_CALCULATION);
+  }
+
+  public void setRateCalculation(Expression node) {
+    super.setChild(ProductType.RATE_CALCULATION, node);
+  }
+
+  public ProductTestSuite getTestcase() {
+    return (ProductTestSuite) this.getChild(ProductTestSuite.class, ProductType.TESTCASE);
+  }
+
+  public void setTestcase(ProductTestSuite node) {
+    super.setChild(ProductType.TESTCASE, node);
+  }
+
+  public int getAttributesesCount() {
+    return this.getChildCount(ProductType.ATTRIBUTES);
+  }
+
+  public Iterator<Attribute> attributeses() {
+    return this.children(Attribute.class, ProductType.ATTRIBUTES);
+  }
+
+  public List<Attribute> getAttributeses() {
+    return this.getChildren(Attribute.class, ProductType.ATTRIBUTES);
+  }
+
+  public void addAttributes(Attribute node) {
+    this.addChild(ProductType.ATTRIBUTES, node);
+  }
+
+  public void insertAttributes(Attribute prev, Attribute node) {
+    this.insertChild(prev, ProductType.ATTRIBUTES, node);
+  }
+
   public int getSmodelAttributesCount() {
     return this.getChildCount(ProductType.SMODEL_ATTRIBUTE);
   }
 
-  public Iterator<Attribute> smodelAttributes() {
-    return this.children(Attribute.class, ProductType.SMODEL_ATTRIBUTE);
+  public Iterator<jetbrains.mps.lang.core.structure.Attribute> smodelAttributes() {
+    return this.children(jetbrains.mps.lang.core.structure.Attribute.class, ProductType.SMODEL_ATTRIBUTE);
   }
 
-  public List<Attribute> getSmodelAttributes() {
-    return this.getChildren(Attribute.class, ProductType.SMODEL_ATTRIBUTE);
+  public List<jetbrains.mps.lang.core.structure.Attribute> getSmodelAttributes() {
+    return this.getChildren(jetbrains.mps.lang.core.structure.Attribute.class, ProductType.SMODEL_ATTRIBUTE);
   }
 
-  public void addSmodelAttribute(Attribute node) {
+  public void addSmodelAttribute(jetbrains.mps.lang.core.structure.Attribute node) {
     this.addChild(ProductType.SMODEL_ATTRIBUTE, node);
   }
 
-  public void insertSmodelAttribute(Attribute prev, Attribute node) {
+  public void insertSmodelAttribute(jetbrains.mps.lang.core.structure.Attribute prev, jetbrains.mps.lang.core.structure.Attribute node) {
     this.insertChild(prev, ProductType.SMODEL_ATTRIBUTE, node);
   }
 

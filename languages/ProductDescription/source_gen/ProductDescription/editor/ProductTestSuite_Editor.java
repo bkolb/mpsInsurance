@@ -125,7 +125,7 @@ public class ProductTestSuite_Editor extends DefaultNodeEditor {
   private EditorCell createTable_m3bw6i_a1a(EditorContext editorContext, SNode node) {
     TableModelCreator creator = new TableModelCreator() {
       public TableModel getTable(final SNode node, final EditorContext editorContext) {
-        return new ProductTestSuiteTableModel(SNodeOperations.cast(SNodeOperations.getParent(node), "ProductDescription.structure.SimpleProduct"), editorContext);
+        return new ProductTestSuiteTableModel(SNodeOperations.cast(SNodeOperations.getParent(node), "ProductDescription.structure.ProductType"), editorContext);
       }
     };
     EditorCell_Collection editorCell = EditorCell_Table.createTable(editorContext, node, creator.getTable(node, editorContext), "Table_m3bw6i_a1a");
@@ -141,7 +141,7 @@ public class ProductTestSuite_Editor extends DefaultNodeEditor {
         ModelAccess.instance().runWriteActionInCommand(new Runnable() {
           public void run() {
             for (SNode tc : ListSequence.fromList(SLinkOperations.getTargets(suite, "cases", true))) {
-              int result = new RateCalculator(tc).calculate(SLinkOperations.getTarget(SNodeOperations.getAncestor(suite, "ProductDescription.structure.SimpleProduct", true, false), "rateCalculation", true));
+              int result = new RateCalculator(tc).calculate(SLinkOperations.getTarget(SNodeOperations.getAncestor(suite, "ProductDescription.structure.ProductType", true, false), "rateCalculation", true));
               SPropertyOperations.set(SLinkOperations.getTarget(tc, "actualResult", true), "value", result + "");
             }
           }

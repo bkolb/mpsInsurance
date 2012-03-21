@@ -58,7 +58,7 @@ public class RunTest extends EditorCellKeyMap {
 
     private void execute_internal(final KeyEvent keyEvent, final EditorContext editorContext, final SNode node, final List<SNode> selectedNodes) {
       for (SNode tc : ListSequence.fromList(SLinkOperations.getTargets(node, "cases", true))) {
-        int result = new RateCalculator(tc).calculate(SLinkOperations.getTarget(SNodeOperations.getAncestor(node, "ProductDescription.structure.SimpleProduct", true, false), "rateCalculation", true));
+        int result = new RateCalculator(tc).calculate(SLinkOperations.getTarget(SNodeOperations.getAncestor(node, "ProductDescription.structure.SimpleProductType", true, false), "rateCalculation", true));
         SPropertyOperations.set(SLinkOperations.getTarget(tc, "actualResult", true), "value", result + "");
       }
     }

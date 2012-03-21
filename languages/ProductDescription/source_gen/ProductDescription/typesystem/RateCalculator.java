@@ -25,6 +25,15 @@ public class RateCalculator {
     return dispatch0(n);
   }
 
+  public int evalResult(SNode res) {
+    SNode pt = SNodeOperations.getAncestor(res, "ProductDescription.structure.CompositeProductType", false, false);
+    int result = 23;
+    for (SNode containedProduct : ListSequence.fromList(SLinkOperations.getTargets(pt, "containedProducts", true))) {
+      result += calculate(SLinkOperations.getTarget(SLinkOperations.getTarget(containedProduct, "pt", false), "rateCalculation", true));
+    }
+    return result;
+  }
+
   public boolean evalComparison(SNode n) {
     return dispatch1(n);
   }
@@ -58,6 +67,9 @@ public class RateCalculator {
     }
     if (SNodeOperations.isInstanceOf(candidate, "com.mbeddr.core.expressions.structure.NumberLiteral")) {
       return Integer.parseInt(SPropertyOperations.getString(SNodeOperations.cast(candidate, "com.mbeddr.core.expressions.structure.NumberLiteral"), "value"));
+    }
+    if (SNodeOperations.isInstanceOf(candidate, "ProductDescription.structure.ResultExpression")) {
+      return evalResult(SNodeOperations.cast(candidate, "ProductDescription.structure.ResultExpression"));
     }
     if (SNodeOperations.isInstanceOf(candidate, "com.mbeddr.core.util.structure.DecTab")) {
       return evalDecTab(SNodeOperations.cast(candidate, "com.mbeddr.core.util.structure.DecTab"));
