@@ -310,62 +310,6 @@
     <node role="containedProducts" roleId="xikn.3975765255154459385" type="xikn.ProductTypeRef" typeId="xikn.3975765255154810161" id="3975765255154820795">
       <link role="pt" roleId="xikn.3975765255154810162" targetNodeId="6991865057876577189" resolveInfo="Fahrrad" />
     </node>
-    <node role="rateCalculation" roleId="xikn.6991865057876534648" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="3975765255154874459">
-      <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="3975765255154874521">
-        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154874524">
-          <property name="value" nameId="mj1l.8860443239512128104" value="100" />
-        </node>
-        <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="3975765255154874466">
-          <node role="left" roleId="mj1l.8860443239512128064" type="xikn.ResultExpression" typeId="xikn.3975765255154570813" id="3975765255154874463" />
-          <node role="right" roleId="mj1l.8860443239512128065" type="k146.GSwitchExpression" typeId="k146.6209595569797561318" id="3975765255154874483">
-            <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="3975765255154874486" />
-            <node role="cases" roleId="k146.6209595569797561355" type="k146.GSwitchCase" typeId="k146.6209595569797561319" id="3975765255154874487">
-              <node role="result" roleId="k146.6209595569797561321" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154874496">
-                <property name="value" nameId="mj1l.8860443239512128104" value="15" />
-              </node>
-              <node role="condition" roleId="k146.6209595569797561320" type="mj1l.EqualsExpression" typeId="mj1l.8860443239512129322" id="3975765255154874505">
-                <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154874508">
-                  <property name="value" nameId="mj1l.8860443239512128104" value="1" />
-                </node>
-                <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154874502">
-                  <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="3975765255154874490" resolveInfo="SFK" />
-                </node>
-              </node>
-            </node>
-            <node role="cases" roleId="k146.6209595569797561355" type="k146.GSwitchCase" typeId="k146.6209595569797561319" id="3975765255154874497">
-              <node role="result" roleId="k146.6209595569797561321" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154874516">
-                <property name="value" nameId="mj1l.8860443239512128104" value="30" />
-              </node>
-              <node role="condition" roleId="k146.6209595569797561320" type="mj1l.EqualsExpression" typeId="mj1l.8860443239512129322" id="3975765255154874512">
-                <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154874515">
-                  <property name="value" nameId="mj1l.8860443239512128104" value="2" />
-                </node>
-                <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154874509">
-                  <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="3975765255154874490" resolveInfo="SFK" />
-                </node>
-              </node>
-            </node>
-            <node role="def" roleId="k146.6209595569797561368" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154874518">
-              <property name="value" nameId="mj1l.8860443239512128104" value="0" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="3975765255154822133">
-        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.ResultExpression" typeId="xikn.3975765255154570813" id="3975765255154822124" />
-        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="3975765255154833555">
-          <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="3975765255154822140">
-            <node role="left" roleId="mj1l.8860443239512128064" type="xikn.ResultExpression" typeId="xikn.3975765255154570813" id="3975765255154822137" />
-            <node role="right" roleId="mj1l.8860443239512128065" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154833552">
-              <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="3975765255154832849" resolveInfo="rabatt" />
-            </node>
-          </node>
-          <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154833558">
-            <property name="value" nameId="mj1l.8860443239512128104" value="100" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="3975765255154832849">
       <property name="name" nameId="tpck.1169194664001" value="rabatt" />
       <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="3975765255154832851" />
@@ -411,6 +355,10 @@
       <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154874493">
         <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="3975765255154874490" resolveInfo="SFK" />
       </node>
+    </node>
+    <node role="rateCalculation" roleId="xikn.6991865057876534648" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="6907749204417403876">
+      <node role="right" roleId="mj1l.8860443239512128065" type="xikn.ResultExpression" typeId="xikn.3975765255154570813" id="6907749204417403879" />
+      <node role="left" roleId="mj1l.8860443239512128064" type="xikn.ResultExpression" typeId="xikn.3975765255154570813" id="6907749204417403873" />
     </node>
   </root>
 </model>
