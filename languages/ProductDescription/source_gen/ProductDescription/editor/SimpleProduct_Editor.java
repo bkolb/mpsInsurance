@@ -35,23 +35,26 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_iahs4n_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_iahs4n_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_iahs4n_c0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_iahs4n_d0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_iahs4n_e0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_iahs4n_f0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_iahs4n_g0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_d0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_iahs4n_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_f0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_g0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_iahs4n_h0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iahs4n_i0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_iahs4n_j0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_iahs4n_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_iahs4n_e0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_iahs4n_d0");
+    editorCell.setCellId("Collection_iahs4n_e0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     }
-    editorCell.addEditorCell(this.createRefNodeList_iahs4n_a3a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_iahs4n_a4a(editorContext, node));
     return editorCell;
   }
 
@@ -63,20 +66,19 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_iahs4n_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_iahs4n_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
-      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_iahs4n_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "calculate");
-    editorCell.setCellId("Constant_iahs4n_e0");
+  private EditorCell createConstant_iahs4n_d0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes");
+    editorCell.setCellId("Constant_iahs4n_d0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
@@ -86,8 +88,38 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_iahs4n_a3a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new SimpleProduct_Editor.attributesListHandler_iahs4n_a3a(node, "attributes", editorContext);
+  private EditorCell createConstant_iahs4n_f0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_iahs4n_f0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_iahs4n_g0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "calculate");
+    editorCell.setCellId("Constant_iahs4n_g0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_iahs4n_i0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_iahs4n_i0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNodeList_iahs4n_a4a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new SimpleProduct_Editor.attributesListHandler_iahs4n_a4a(node, "attributes", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_attributes");
     {
@@ -100,7 +132,7 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_iahs4n_f0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_iahs4n_h0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rateCalculation");
     provider.setNoTargetText("<no rateCalculation>");
@@ -117,7 +149,7 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_iahs4n_g0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_iahs4n_j0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("testcase");
     provider.setNoTargetText("<no testcase>");
@@ -157,8 +189,8 @@ public class SimpleProduct_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class attributesListHandler_iahs4n_a3a extends RefNodeListHandler {
-    public attributesListHandler_iahs4n_a3a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class attributesListHandler_iahs4n_a4a extends RefNodeListHandler {
+    public attributesListHandler_iahs4n_a4a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
