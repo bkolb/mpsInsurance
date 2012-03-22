@@ -11,8 +11,6 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="10" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="1" implicit="yes" />
-  <import index="26ao" modelUID="r:7c15925b-a4a5-4da3-88aa-931a5a9ed982(com.mbeddr.cc.trace.structure)" version="3" implicit="yes" />
-  <import index="75wo" modelUID="r:eaa205a4-f15c-47d3-99e2-e648881b5997(com.mbeddr.cc.requirements.structure)" version="3" implicit="yes" />
   <roots>
     <node type="xikn.ProductDescription" typeId="xikn.6991865057876493968" id="6991865057876515362">
       <property name="name" nameId="tpck.1169194664001" value="Hausrat" />
@@ -23,9 +21,6 @@
     </node>
     <node type="xikn.SimpleProductType" typeId="xikn.6991865057876521070" id="6991865057876577192">
       <property name="name" nameId="tpck.1169194664001" value="BasisHausrat" />
-    </node>
-    <node type="75wo.RequirementsModule" typeId="75wo.8745401669462963169" id="6907749204417327038">
-      <property name="name" nameId="tpck.1169194664001" value="TarifRequirements" />
     </node>
     <node type="xikn.CompositeProductType" typeId="xikn.3975765255154459384" id="3975765255154810156">
       <property name="name" nameId="tpck.1169194664001" value="ExtendedHausrat" />
@@ -52,15 +47,10 @@
     </node>
     <node role="contractTypes" roleId="xikn.6991865057876493972" type="xikn.ContractType" typeId="xikn.6991865057876493969" id="6991865057876530853">
       <property name="name" nameId="tpck.1169194664001" value="StudentenHausrat" />
-      <node role="refs" roleId="xikn.6991865057876515371" type="xikn.ProductReference" typeId="xikn.6991865057876515372" id="6991865057876530855">
+      <node role="refs" roleId="xikn.6991865057876515371" type="xikn.ProductReference" typeId="xikn.6991865057876515372" id="8583107335168117324">
         <property name="min" nameId="xikn.6991865057876515375" value="1" />
         <property name="max" nameId="xikn.6991865057876515376" value="1" />
-        <link role="product" roleId="xikn.6991865057876515373" targetNodeId="6991865057876577192" resolveInfo="BasisHausrat" />
-      </node>
-      <node role="refs" roleId="xikn.6991865057876515371" type="xikn.ProductReference" typeId="xikn.6991865057876515372" id="6991865057876530857">
-        <property name="min" nameId="xikn.6991865057876515375" value="1" />
-        <property name="max" nameId="xikn.6991865057876515376" value="1" />
-        <link role="product" roleId="xikn.6991865057876515373" targetNodeId="6991865057876577189" resolveInfo="Fahrrad" />
+        <link role="product" roleId="xikn.6991865057876515373" targetNodeId="3975765255154810156" resolveInfo="ExtendedHausrat" />
       </node>
     </node>
   </root>
@@ -209,12 +199,6 @@
       </node>
       <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765911959">
         <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="alter" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="26ao.TraceAnnotation" typeId="26ao.439567521322928994" id="6907749204417327048">
-          <node role="tracekind" roleId="26ao.439567521322928995" type="26ao.TestsTraceKind" typeId="26ao.439567521322929001" id="6907749204417327051" />
-          <node role="refs" roleId="26ao.439567521322928996" type="75wo.RequirementRef" typeId="75wo.439567521322984797" id="6907749204417327052">
-            <link role="target" roleId="26ao.439567521322959431" targetNodeId="6907749204417327039" resolveInfo="KinderAnders" />
-          </node>
-        </node>
       </node>
       <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562766168051">
         <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8331426562766168046" resolveInfo="dritterParam" />
@@ -244,12 +228,6 @@
         <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562766168028">
           <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="alter" />
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="26ao.TraceAnnotation" typeId="26ao.439567521322928994" id="6907749204417327045">
-          <node role="tracekind" roleId="26ao.439567521322928995" type="26ao.ImplementsTraceKind" typeId="26ao.439567521322929003" id="6907749204417327046" />
-          <node role="refs" roleId="26ao.439567521322928996" type="75wo.RequirementRef" typeId="75wo.439567521322984797" id="6907749204417327047">
-            <link role="target" roleId="26ao.439567521322959431" targetNodeId="6907749204417327039" resolveInfo="KinderAnders" />
-          </node>
-        </node>
       </node>
       <node role="yExpr" roleId="k146.6209595569797584863" type="mj1l.GreaterEqualsExpression" typeId="mj1l.8860443239512147447" id="8331426562766168038">
         <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766168041">
@@ -275,32 +253,6 @@
         <property name="value" nameId="mj1l.8860443239512128104" value="0" />
       </node>
       <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int16tType" typeId="mj1l.8463282783691618435" id="8331426562766168003" />
-    </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="75wo.ReqModuleRefAttribute" typeId="75wo.3402431285977874460" id="6907749204417327043">
-      <node role="refs" roleId="26ao.439567521322959424" type="26ao.TraceTargetProviderRef" typeId="26ao.439567521322959422" id="6907749204417327044">
-        <link role="provider" roleId="26ao.439567521322959423" targetNodeId="6907749204417327038" resolveInfo="TarifRequirements" />
-      </node>
-    </node>
-  </root>
-  <root id="6907749204417327038">
-    <node role="requirements" roleId="75wo.8745401669462963171" type="75wo.Requirement" typeId="75wo.8745401669462952101" id="6907749204417327039">
-      <property name="open" nameId="75wo.1165432222361744926" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="KinderAnders" />
-      <property name="summmary" nameId="75wo.3402431285977818823" value="Kinder unter 18 werden anders behandelt" />
-      <property name="proseText" nameId="75wo.8745401669463252438" value="Dpojfdlyfj dslkfjdflgkjdfs göljsdf göldfjs hlödsgjhlöc" />
-      <property name="traced" nameId="75wo.2667296550441527826" value="true" />
-      <property name="implemented" nameId="75wo.2667296550441502913" value="true" />
-      <property name="tested" nameId="75wo.2667296550441527827" value="true" />
-      <node role="kind" roleId="75wo.8921256082857728256" type="75wo.FunctionalRequirementKind" typeId="75wo.8921256082857728250" id="6907749204417327040" />
-    </node>
-    <node role="requirements" roleId="75wo.8745401669462963171" type="75wo.Requirement" typeId="75wo.8745401669462952101" id="6907749204417327041">
-      <property name="open" nameId="75wo.1165432222361744926" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="KleineLeuteSindBilliger" />
-      <property name="summmary" nameId="75wo.3402431285977818823" value="kleine Leute zahlen weniger" />
-      <property name="traced" nameId="75wo.2667296550441527826" value="false" />
-      <property name="implemented" nameId="75wo.2667296550441502913" value="false" />
-      <property name="tested" nameId="75wo.2667296550441527827" value="false" />
-      <node role="kind" roleId="75wo.8921256082857728256" type="75wo.FunctionalRequirementKind" typeId="75wo.8921256082857728250" id="6907749204417327042" />
     </node>
   </root>
   <root id="3975765255154810156">
