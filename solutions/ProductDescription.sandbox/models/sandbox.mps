@@ -47,6 +47,9 @@
       <property name="showTraces" nameId="26ao.3291018189726920316" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="reqAndVar" />
     </node>
+    <node type="xikn.SimpleProductType" typeId="xikn.6991865057876521070" id="8583107335168148057">
+      <property name="name" nameId="tpck.1169194664001" value="Wasserschaden" />
+    </node>
   </roots>
   <root id="6991865057876515362">
     <node role="validFrom" roleId="xikn.6991865057876494009" type="xikn.Date" typeId="xikn.6991865057876493983" id="6991865057876515363">
@@ -487,6 +490,54 @@
               <property name="value" nameId="mj1l.8860443239512128104" value="19" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="8583107335168148057">
+    <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="8583107335168148059">
+      <property name="name" nameId="tpck.1169194664001" value="wohnfläche" />
+      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.Int16tType" typeId="mj1l.8463282783691618435" id="8583107335168148061" />
+    </node>
+    <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="8583107335168148062">
+      <property name="name" nameId="tpck.1169194664001" value="luxus" />
+      <node role="type" roleId="xikn.6991865057876561223" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="8583107335168148064" />
+    </node>
+    <node role="testcase" roleId="xikn.1850134002004981838" type="xikn.ProductTestSuite" typeId="xikn.1850134002004981839" id="8583107335168148114">
+      <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8583107335168148117">
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8583107335168148122">
+          <property name="value" nameId="mj1l.8860443239512128104" value="100" />
+        </node>
+        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.FalseLiteral" typeId="mj1l.8860443239512128099" id="8583107335168148123" />
+        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8583107335168148124">
+          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
+        </node>
+        <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8583107335168148121">
+          <property name="value" nameId="xikn.8331426562765903011" value="20.0" />
+        </node>
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8583107335168148115">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8583107335168148059" resolveInfo="wohnfläche" />
+      </node>
+      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8583107335168148116">
+        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8583107335168148062" resolveInfo="luxus" />
+      </node>
+    </node>
+    <node role="rateCalculation" roleId="xikn.6991865057876534648" type="mj1l.ParensExpression" typeId="mj1l.5763383285156533447" id="7953975614265464988">
+      <node role="expression" roleId="mj1l.7254843406768839760" type="mj1l.MultiExpression" typeId="mj1l.5763383285156373020" id="8583107335168148092">
+        <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.TernaryExpression" typeId="mj1l.8729447926330528686" id="8583107335168148096">
+          <node role="thenExpr" roleId="mj1l.8729447926330528688" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8583107335168148099">
+            <property name="value" nameId="mj1l.8860443239512128104" value="0.3" />
+          </node>
+          <node role="condition" roleId="mj1l.8729447926330528687" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8583107335168148095">
+            <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8583107335168148062" resolveInfo="luxus" />
+          </node>
+          <node role="elseExpr" roleId="mj1l.8729447926330528689" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7953975614265543258">
+            <property name="value" nameId="mj1l.8860443239512128104" value="0.2" />
+          </node>
+        </node>
+        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8583107335168148091">
+          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8583107335168148059" resolveInfo="wohnfläche" />
         </node>
       </node>
     </node>
