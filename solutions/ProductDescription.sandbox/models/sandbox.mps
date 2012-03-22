@@ -44,7 +44,6 @@
     </node>
     <node type="75wo.RequirementsModule" typeId="75wo.8745401669462963169" id="8904572473234614323">
       <property name="name" nameId="tpck.1169194664001" value="Produktrequirements" />
-      <property name="showTraces" nameId="26ao.3291018189726920316" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="reqAndVar" />
     </node>
   </roots>
@@ -179,7 +178,7 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="2" />
         </node>
         <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765912602">
-          <property name="value" nameId="mj1l.8860443239512128104" value="10" />
+          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562765912597">
           <property name="value" nameId="xikn.8331426562765903011" value="10" />
