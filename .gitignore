@@ -1,5 +1,8 @@
 languages/*/classes_gen
 languages/*/source_gen
 languages/*/source_gen.caches
+solutions/*/classes_gen
+solutions/*/source_gen
+solutions/*/source_gen.caches
 
 *.iws
