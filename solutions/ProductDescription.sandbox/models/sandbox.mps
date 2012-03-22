@@ -304,12 +304,6 @@
     </node>
   </root>
   <root id="3975765255154810156">
-    <node role="containedProducts" roleId="xikn.3975765255154459385" type="xikn.ProductTypeRef" typeId="xikn.3975765255154810161" id="3975765255154820793">
-      <link role="pt" roleId="xikn.3975765255154810162" targetNodeId="6991865057876577192" resolveInfo="BasisHausrat" />
-    </node>
-    <node role="containedProducts" roleId="xikn.3975765255154459385" type="xikn.ProductTypeRef" typeId="xikn.3975765255154810161" id="3975765255154820795">
-      <link role="pt" roleId="xikn.3975765255154810162" targetNodeId="6991865057876577189" resolveInfo="Fahrrad" />
-    </node>
     <node role="rateCalculation" roleId="xikn.6991865057876534648" type="mj1l.PlusExpression" typeId="mj1l.5763383285156373013" id="3975765255154822133">
       <node role="left" roleId="mj1l.8860443239512128064" type="xikn.ResultExpression" typeId="xikn.3975765255154570813" id="3975765255154822124" />
       <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="3975765255154833555">
@@ -323,6 +317,12 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="100" />
         </node>
       </node>
+    </node>
+    <node role="containedProducts" roleId="xikn.3975765255154459385" type="xikn.ProductTypeRef" typeId="xikn.3975765255154810161" id="3975765255154820793">
+      <link role="pt" roleId="xikn.3975765255154810162" targetNodeId="6991865057876577192" resolveInfo="BasisHausrat" />
+    </node>
+    <node role="containedProducts" roleId="xikn.3975765255154459385" type="xikn.ProductTypeRef" typeId="xikn.3975765255154810161" id="3975765255154820795">
+      <link role="pt" roleId="xikn.3975765255154810162" targetNodeId="6991865057876577189" resolveInfo="Fahrrad" />
     </node>
     <node role="attributes" roleId="xikn.6991865057876546185" type="xikn.Attribute" typeId="xikn.6991865057876540989" id="3975765255154832849">
       <property name="name" nameId="tpck.1169194664001" value="rabatt" />
