@@ -8,6 +8,7 @@
   <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="10" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
+  <import index="75wo" modelUID="r:eaa205a4-f15c-47d3-99e2-e648881b5997(com.mbeddr.cc.requirements.structure)" version="3" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6991865057876493968">
       <property name="name" nameId="tpck.1169194664001" value="ProductDescription" />
@@ -70,6 +71,21 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3975765255154810161">
       <property name="name" nameId="tpck.1169194664001" value="ProductTypeRef" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8904572473234614485">
+      <property name="name" nameId="tpck.1169194664001" value="RabattierungsKind" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="rabatt" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="75wo.8921256082857728247" resolveInfo="RequirementsKind" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8904572473234614487">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="rabatt" />
+      <property name="name" nameId="tpck.1169194664001" value="RabattformelData" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="75wo.8745401669463257452" resolveInfo="RequirementsData" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8904572473234718625">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="rabatt" />
+      <property name="name" nameId="tpck.1169194664001" value="BasisPreisExpr" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="mj1l.8860443239512128050" resolveInfo="Expression" />
     </node>
   </roots>
   <root id="6991865057876493968">
@@ -245,6 +261,34 @@
       <property name="role" nameId="tpce.1071599776563" value="pt" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6991865057876515366" resolveInfo="ProductType" />
+    </node>
+  </root>
+  <root id="8904572473234614485">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="8904572473234614486">
+      <property name="value" nameId="tpce.1105725733873" value="rabatt" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="8904572473234677502">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="75wo.3402431285977742871" resolveInfo="requiredDataKind" />
+      <link role="target" roleId="tpce.1105736807942" targetNodeId="8904572473234614487" resolveInfo="RabattformelData" />
+    </node>
+  </root>
+  <root id="8904572473234614487">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8904572473234614488">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="expr" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="mj1l.8860443239512128050" resolveInfo="Expression" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="8904572473234718619">
+      <property name="value" nameId="tpce.1105725733873" value="rabatt" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="8904572473234718625">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="8904572473234718626">
+      <property name="value" nameId="tpce.1105725733873" value="basispreis" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
 </model>

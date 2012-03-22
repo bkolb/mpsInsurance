@@ -79,6 +79,14 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3975765255154810163">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="xikn.3975765255154810161" resolveInfo="ProductTypeRef" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8904572473234614489">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="rabatt" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="xikn.8904572473234614487" resolveInfo="RabattformelData" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8904572473234718627">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="rabatt" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="xikn.8904572473234718625" resolveInfo="BasisPreisExpr" />
+    </node>
   </roots>
   <root id="6991865057876493973">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6991865057876493975">
@@ -1695,6 +1703,22 @@
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
         </node>
       </node>
+    </node>
+  </root>
+  <root id="8904572473234614489">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8904572473234718620">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8904572473234718621" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8904572473234718624">
+        <property name="text" nameId="tpc2.1073389577007" value="rabatt" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8904572473234677501">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="xikn.8904572473234614488" />
+      </node>
+    </node>
+  </root>
+  <root id="8904572473234718627">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8904572473234718629">
+      <property name="text" nameId="tpc2.1073389577007" value="basispreis" />
     </node>
   </root>
 </model>
