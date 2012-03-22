@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="xikn" modelUID="r:43cd04c5-7a74-4b48-99a0-d77f000c25b5(ProductDescription.structure)" version="-1" />
+    </dependencies>
+    <rename id="xikn.6991865057876521070" type="CONCEPT" from="SimpleProduct" to="SimpleProductType" />
+  </StructureModification>
+</history>
+
