@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"ProductDescription.structure.AttributeRef", "ProductDescription.structure.ProductReference", "ProductDescription.structure.ProductTypeRef", "ProductDescription.structure.ResultExpression", "ProductDescription.structure.SimpleProductType"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"ProductDescription.structure.AttributeRef", "ProductDescription.structure.ProductReference", "ProductDescription.structure.ProductType", "ProductDescription.structure.ProductTypeRef", "ProductDescription.structure.ResultExpression"};
 
   public ConstraintsAspectDescriptor() {
   }
@@ -18,11 +18,11 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new ProductReference_Constraints();
       case 0:
         return new AttributeRef_Constraints();
-      case 4:
-        return new SimpleProductType_Constraints();
       case 2:
-        return new ProductTypeRef_Constraints();
+        return new ProductType_Constraints();
       case 3:
+        return new ProductTypeRef_Constraints();
+      case 4:
         return new ResultExpression_Constraints();
       default:
         // todo: illegal in some cases? 

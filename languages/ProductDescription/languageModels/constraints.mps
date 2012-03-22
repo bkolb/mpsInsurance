@@ -27,7 +27,7 @@
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="xikn.6991865057876561224" resolveInfo="AttributeRef" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8331426562766168064">
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="xikn.6991865057876521070" resolveInfo="SimpleProductType" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="xikn.6991865057876515366" resolveInfo="ProductType" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3975765255154820137">
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="xikn.3975765255154810161" resolveInfo="ProductTypeRef" />
@@ -354,6 +354,18 @@
             <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="6907749204417321434">
               <node role="argument" roleId="tp2q.1160612519549" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="6907749204417321435">
                 <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="mj1l.7615572890648529894" resolveInfo="NotEqualsExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3975765255154875251">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3975765255154875255">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3975765255154875252">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6907749204417321339" resolveInfo="concepts" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="3975765255154875261">
+              <node role="argument" roleId="tp2q.1160612519549" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="3975765255154875264">
+                <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="xikn.3975765255154570813" resolveInfo="ResultExpression" />
               </node>
             </node>
           </node>
