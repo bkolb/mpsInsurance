@@ -7,18 +7,17 @@
   <language namespace="2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)" />
   <language namespace="6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)" />
   <language namespace="2d7fadf5-33f6-4e80-a78f-0f739add2bde(com.mbeddr.core.buildconfig)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <devkit namespace="a4dac888-0788-4852-b4c0-f386bf6f2c0b(com.mbeddr.cc.reqtrace)" />
   <devkit namespace="b31efd26-898e-4b0e-b5dc-2d7ced06e7f7(com.mbeddr.cc.variability)" />
   <import index="xikn" modelUID="r:43cd04c5-7a74-4b48-99a0-d77f000c25b5(ProductDescription.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="10" implicit="yes" />
-  <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" implicit="yes" />
-  <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="1" implicit="yes" />
-  <import index="qqyh" modelUID="r:a74300b8-76a8-461e-befa-fc86b0ad5dd9(com.mbeddr.cc.var.fm.structure)" version="-1" implicit="yes" />
-  <import index="qdv7" modelUID="r:1ff3d952-eae5-4d94-b89e-ea3060b11545(com.mbeddr.cc.var.annotations.structure)" version="2" implicit="yes" />
   <import index="26ao" modelUID="r:7c15925b-a4a5-4da3-88aa-931a5a9ed982(com.mbeddr.cc.trace.structure)" version="3" implicit="yes" />
-  <import index="75wo" modelUID="r:eaa205a4-f15c-47d3-99e2-e648881b5997(com.mbeddr.cc.requirements.structure)" version="3" implicit="yes" />
+  <import index="qqyh" modelUID="r:a74300b8-76a8-461e-befa-fc86b0ad5dd9(com.mbeddr.cc.var.fm.structure)" version="-1" implicit="yes" />
+  <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="2" implicit="yes" />
+  <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="17" implicit="yes" />
+  <import index="75wo" modelUID="r:eaa205a4-f15c-47d3-99e2-e648881b5997(com.mbeddr.cc.requirements.structure)" version="5" implicit="yes" />
+  <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" implicit="yes" />
+  <import index="qdv7" modelUID="r:1ff3d952-eae5-4d94-b89e-ea3060b11545(com.mbeddr.cc.var.annotations.structure)" version="2" implicit="yes" />
   <roots>
     <node type="xikn.ProductDescription" typeId="xikn.6991865057876493968" id="6991865057876515362">
       <property name="name" nameId="tpck.1169194664001" value="Hausrat" />
@@ -180,13 +179,13 @@
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765912599">
           <property name="value" nameId="mj1l.8860443239512128104" value="2" />
         </node>
-        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562765912602">
-          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
-        </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562765912597">
-          <property name="value" nameId="xikn.8331426562765903011" value="10" />
+          <property name="value" nameId="xikn.8331426562765903011" value="10.0" />
         </node>
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="8331426562766168061" />
+        <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="1407493692721765657">
+          <property name="value" nameId="mj1l.8860443239512128104" value="10" />
+        </node>
       </node>
       <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8331426562766077922">
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766078955">
@@ -199,7 +198,7 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="40" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766077926">
-          <property name="value" nameId="xikn.8331426562765903011" value="40" />
+          <property name="value" nameId="xikn.8331426562765903011" value="40.0" />
         </node>
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="8331426562766168062" />
       </node>
@@ -214,7 +213,7 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="40" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766080731">
-          <property name="value" nameId="xikn.8331426562765903011" value="40" />
+          <property name="value" nameId="xikn.8331426562765903011" value="40.0" />
         </node>
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="8331426562766168063" />
       </node>
@@ -446,6 +445,7 @@
       <property name="traced" nameId="75wo.2667296550441527826" value="false" />
       <property name="implemented" nameId="75wo.2667296550441502913" value="false" />
       <property name="tested" nameId="75wo.2667296550441527827" value="false" />
+      <property name="priority" nameId="75wo.3314758227758879688" value="1" />
       <node role="kind" roleId="75wo.8921256082857728256" type="75wo.FunctionalRequirementKind" typeId="75wo.8921256082857728250" id="8904572473234614325" />
     </node>
     <node role="requirements" roleId="75wo.8745401669462963171" type="75wo.Requirement" typeId="75wo.8745401669462952101" id="8904572473234614326">
@@ -455,6 +455,7 @@
       <property name="traced" nameId="75wo.2667296550441527826" value="false" />
       <property name="implemented" nameId="75wo.2667296550441502913" value="false" />
       <property name="tested" nameId="75wo.2667296550441527827" value="false" />
+      <property name="priority" nameId="75wo.3314758227758879688" value="2" />
       <node role="kind" roleId="75wo.8921256082857728256" type="xikn.RabattierungsKind" typeId="xikn.8904572473234614485" id="8904572473234718616" />
       <node role="additionalData" roleId="75wo.8745401669463270518" type="xikn.RabattformelData" typeId="xikn.8904572473234614487" id="8904572473234718617">
         <node role="expr" roleId="xikn.8904572473234614488" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="8904572473234735931">
@@ -477,6 +478,7 @@
       <property name="traced" nameId="75wo.2667296550441527826" value="true" />
       <property name="implemented" nameId="75wo.2667296550441502913" value="true" />
       <property name="tested" nameId="75wo.2667296550441527827" value="false" />
+      <property name="priority" nameId="75wo.3314758227758879688" value="3" />
       <node role="kind" roleId="75wo.8921256082857728256" type="xikn.RabattierungsKind" typeId="xikn.8904572473234614485" id="8904572473234735937" />
       <node role="additionalData" roleId="75wo.8745401669463270518" type="xikn.RabattformelData" typeId="xikn.8904572473234614487" id="8904572473234736338">
         <node role="expr" roleId="xikn.8904572473234614488" type="mj1l.DivExpression" typeId="mj1l.5763383285156373022" id="8904572473234736349">
