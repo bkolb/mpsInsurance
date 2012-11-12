@@ -2,10 +2,8 @@
 <model modelUID="r:153070f4-12ad-4d4f-9dfb-55ddd09c75b0(ProductDescription.sandbox.sandbox)">
   <persistence version="7" />
   <language namespace="931d8873-6441-454f-bb23-5d8f8e84a6f8(ProductDescription)" />
-  <language namespace="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" />
   <language namespace="61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)" />
   <language namespace="2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)" />
-  <language namespace="6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)" />
   <language namespace="2d7fadf5-33f6-4e80-a78f-0f739add2bde(com.mbeddr.core.buildconfig)" />
   <devkit namespace="a4dac888-0788-4852-b4c0-f386bf6f2c0b(com.mbeddr.cc.reqtrace)" />
   <devkit namespace="b31efd26-898e-4b0e-b5dc-2d7ced06e7f7(com.mbeddr.cc.variability)" />
@@ -220,8 +218,10 @@
     </node>
     <node role="rateCalculation" roleId="xikn.6991865057876534648" type="k146.DecTab" typeId="k146.6209595569797584861" id="8331426562766167992">
       <node role="xExpr" roleId="k146.6209595569797584862" type="mj1l.LessExpression" typeId="mj1l.8860443239512147449" id="8331426562766168025">
-        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562766168026">
-          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="squareMeters" />
+        <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.ParensExpression" typeId="mj1l.5763383285156533447" id="2559261207370634350">
+          <node role="expression" roleId="mj1l.7254843406768839760" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="2559261207370634352">
+            <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="squareMeters" />
+          </node>
         </node>
         <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766168027">
           <property name="value" nameId="mj1l.8860443239512128104" value="150" />
