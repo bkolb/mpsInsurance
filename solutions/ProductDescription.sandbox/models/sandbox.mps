@@ -186,13 +186,13 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="200" />
         </node>
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766078956">
-          <property name="value" nameId="mj1l.8860443239512128104" value="30" />
+          <property name="value" nameId="mj1l.8860443239512128104" value="3" />
         </node>
         <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766078957">
           <property name="value" nameId="mj1l.8860443239512128104" value="40" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766077926">
-          <property name="value" nameId="xikn.8331426562765903011" value="50.0" />
+          <property name="value" nameId="xikn.8331426562765903011" value="40.0" />
         </node>
       </node>
       <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8331426562766080727">
@@ -200,10 +200,10 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="150" />
         </node>
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766080733">
-          <property name="value" nameId="mj1l.8860443239512128104" value="20" />
+          <property name="value" nameId="mj1l.8860443239512128104" value="4" />
         </node>
         <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766080734">
-          <property name="value" nameId="mj1l.8860443239512128104" value="40" />
+          <property name="value" nameId="mj1l.8860443239512128104" value="50" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766080731">
           <property name="value" nameId="xikn.8331426562765903011" value="50.0" />
@@ -218,10 +218,8 @@
     </node>
     <node role="rateCalculation" roleId="xikn.6991865057876534648" type="k146.DecTab" typeId="k146.6209595569797584861" id="8331426562766167992">
       <node role="xExpr" roleId="k146.6209595569797584862" type="mj1l.LessExpression" typeId="mj1l.8860443239512147449" id="8331426562766168025">
-        <node role="left" roleId="mj1l.8860443239512128064" type="mj1l.ParensExpression" typeId="mj1l.5763383285156533447" id="2559261207370634350">
-          <node role="expression" roleId="mj1l.7254843406768839760" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="2559261207370634352">
-            <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="squareMeters" />
-          </node>
+        <node role="left" roleId="mj1l.8860443239512128064" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="2559261207370634352">
+          <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="6991865057876577195" resolveInfo="squareMeters" />
         </node>
         <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="8331426562766168027">
           <property name="value" nameId="mj1l.8860443239512128104" value="150" />
