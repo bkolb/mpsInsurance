@@ -15,9 +15,10 @@
   <import index="qqyh" modelUID="r:a74300b8-76a8-461e-befa-fc86b0ad5dd9(com.mbeddr.cc.var.fm.structure)" version="-1" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="2" implicit="yes" />
   <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="17" implicit="yes" />
-  <import index="75wo" modelUID="r:eaa205a4-f15c-47d3-99e2-e648881b5997(com.mbeddr.cc.requirements.structure)" version="5" implicit="yes" />
+  <import index="75wo" modelUID="r:eaa205a4-f15c-47d3-99e2-e648881b5997(com.mbeddr.cc.requirements.structure)" version="6" implicit="yes" />
   <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" implicit="yes" />
   <import index="qdv7" modelUID="r:1ff3d952-eae5-4d94-b89e-ea3060b11545(com.mbeddr.cc.var.annotations.structure)" version="2" implicit="yes" />
+  <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="5" implicit="yes" />
   <roots>
     <node type="xikn.ProductDescription" typeId="xikn.6991865057876493968" id="6991865057876515362">
       <property name="name" nameId="tpck.1169194664001" value="Hausrat" />
@@ -193,7 +194,7 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="40" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766077926">
-          <property name="value" nameId="xikn.8331426562765903011" value="40.0" />
+          <property name="value" nameId="xikn.8331426562765903011" value="50.0" />
         </node>
       </node>
       <node role="cases" roleId="xikn.1850134002004981852" type="xikn.TestCase" typeId="xikn.1850134002004981846" id="8331426562766080727">
@@ -207,7 +208,7 @@
           <property name="value" nameId="mj1l.8860443239512128104" value="40" />
         </node>
         <node role="actualResult" roleId="xikn.8331426562765903040" type="xikn.StringWrapper" typeId="xikn.8331426562765902998" id="8331426562766080731">
-          <property name="value" nameId="xikn.8331426562765903011" value="40.0" />
+          <property name="value" nameId="xikn.8331426562765903011" value="50.0" />
         </node>
       </node>
       <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="8331426562765911958">
@@ -345,7 +346,6 @@
         <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154867277">
           <property name="value" nameId="mj1l.8860443239512128104" value="3" />
         </node>
-        <node role="inputValues" roleId="xikn.1850134002004981847" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="3975765255154867279" />
         <node role="expectedResult" roleId="xikn.1850134002004981848" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3975765255154867280">
           <property name="value" nameId="mj1l.8860443239512128104" value="50" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="26ao.TraceAnnotation" typeId="26ao.439567521322928994" id="8904572473234752225">
@@ -377,9 +377,6 @@
       <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154867266">
         <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8619408613058334731" resolveInfo="numberOfRooms" />
       </node>
-      <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154867267">
-        <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="8331426562766168046" resolveInfo="dritterParam" />
-      </node>
       <node role="attributes" roleId="xikn.8619408613058320749" type="xikn.AttributeRef" typeId="xikn.6991865057876561224" id="3975765255154874493">
         <link role="attr" roleId="xikn.6991865057876561225" targetNodeId="3975765255154874490" resolveInfo="SFK" />
       </node>
@@ -395,7 +392,11 @@
       </node>
     </node>
   </root>
-  <root id="3975765255154932953" />
+  <root id="3975765255154932953">
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="7508251396920672435">
+      <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7508251396920672436" />
+    </node>
+  </root>
   <root id="9108052991586377597">
     <node role="contents" roleId="qqyh.6825476687691337713" type="qqyh.FeatureModel" typeId="qqyh.6825476687691297434" id="9108052991586377598">
       <property name="name" nameId="tpck.1169194664001" value="ProduktKonfiguration" />
